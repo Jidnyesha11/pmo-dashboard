@@ -1,0 +1,5 @@
+﻿decisionId,date,decision,owner,status,rationale
+DEC-001,2026-01-14,Use approved document sources only for initial release,Executive Sponsor,Approved,Reduce privacy and content risk
+DEC-002,2026-02-02,Keep human escalation available for every supported intent,Product Manager,Approved,Safe fallback and service continuity
+DEC-003,2026-03-16,Use citation traceability as a release acceptance gate,Support Operations Lead,Approved,Enable agent verification
+CR-001,2026-04-08,Add accessibility review to MVP exit criteria,Executive Sponsor,Approved,Reduce adoption and compliance risk

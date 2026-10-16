@@ -1,0 +1,7 @@
+﻿category,budgetBaselineINR,contingencyFlag
+Development,1000000,False
+AI and cloud,400000,False
+Design,200000,False
+Testing,200000,False
+Infrastructure,300000,False
+Contingency,400000,True

@@ -1,0 +1,14 @@
+﻿sprintId,name,startDate,endDate,goal,selected
+SPRINT-01,Sprint 01,2026-01-05,2026-01-18,Foundation and discovery,True
+SPRINT-02,Sprint 02,2026-01-19,2026-02-01,Foundation and discovery,True
+SPRINT-03,Sprint 03,2026-02-02,2026-02-15,Secure knowledge retrieval,True
+SPRINT-04,Sprint 04,2026-02-16,2026-03-01,Secure knowledge retrieval,True
+SPRINT-05,Sprint 05,2026-03-02,2026-03-15,Customer chat MVP,True
+SPRINT-06,Sprint 06,2026-03-16,2026-03-29,Customer chat MVP,True
+SPRINT-07,Sprint 07,2026-03-30,2026-04-12,Ticket workflows,False
+SPRINT-08,Sprint 08,2026-04-13,2026-04-26,Ticket workflows,False
+SPRINT-09,Sprint 09,2026-04-27,2026-05-10,Admin and analytics,False
+SPRINT-10,Sprint 10,2026-05-11,2026-05-24,Admin and analytics,False
+SPRINT-11,Sprint 11,2026-05-25,2026-06-07,Hardening and UAT,False
+SPRINT-12,Sprint 12,2026-06-08,2026-06-21,Hardening and UAT,False
+SPRINT-13,Sprint 13,2026-06-22,2026-07-03,Release readiness,False

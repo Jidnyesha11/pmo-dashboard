@@ -1,0 +1,43 @@
+﻿period,category,plannedCostINR,actualCostINR,commitmentINR
+2026-01,Development,100000,95238,0
+2026-01,AI and cloud,40000,38095,0
+2026-01,Design,20000,19048,0
+2026-01,Testing,20000,19048,0
+2026-01,Infrastructure,30000,28571,0
+2026-01,Contingency,0,0,0
+2026-02,Development,133333,130952,0
+2026-02,AI and cloud,53333,52381,0
+2026-02,Design,26667,26190,0
+2026-02,Testing,26667,26190,0
+2026-02,Infrastructure,40000,39286,0
+2026-02,Contingency,0,0,0
+2026-03,Development,161905,157143,0
+2026-03,AI and cloud,64762,62857,0
+2026-03,Design,32381,31429,0
+2026-03,Testing,32381,31429,0
+2026-03,Infrastructure,48571,47143,0
+2026-03,Contingency,0,0,0
+2026-04,Development,185714,192857,0
+2026-04,AI and cloud,74286,77143,0
+2026-04,Design,37143,38571,0
+2026-04,Testing,37143,38571,0
+2026-04,Infrastructure,55714,57857,0
+2026-04,Contingency,0,0,0
+2026-05,Development,142857,0,0
+2026-05,AI and cloud,57143,0,0
+2026-05,Design,28571,0,0
+2026-05,Testing,28571,0,0
+2026-05,Infrastructure,42857,0,0
+2026-05,Contingency,0,0,0
+2026-06,Development,142857,0,0
+2026-06,AI and cloud,57143,0,0
+2026-06,Design,28571,0,0
+2026-06,Testing,28571,0,0
+2026-06,Infrastructure,42857,0,0
+2026-06,Contingency,0,0,0
+2026-07,Development,133333,0,0
+2026-07,AI and cloud,53333,0,0
+2026-07,Design,26667,0,0
+2026-07,Testing,26667,0,0
+2026-07,Infrastructure,40000,0,0
+2026-07,Contingency,0,0,0

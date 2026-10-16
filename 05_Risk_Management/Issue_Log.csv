@@ -1,0 +1,10 @@
+﻿issueId,description,category,severity,priority,owner,dueDate,status,resolutionPlan
+ISSUE-001,CRM sandbox credentials arrived three business days late,Integration,High,High,Mira Nair,2026-04-24,In Progress,Use mock adapter until access restored
+ISSUE-002,Two approved document sets have inconsistent metadata,Data readiness,Medium,High,Neel Kapoor,2026-04-24,Open,Normalize metadata and confirm source owner
+ISSUE-003,Mobile chat layout clips long citation labels,UX,Medium,Medium,Diya Iyer,2026-04-28,Open,Add wrapping and regression coverage
+ISSUE-004,Sprint 5 retrieval tuning story carried over,Delivery,Medium,High,Neel Kapoor,2026-04-24,In Progress,Split evaluation and implementation work
+ISSUE-005,Audit event schema missing actor context,Security,High,High,Kabir Shah,2026-04-30,Open,Add actor and role fields before integration test
+ISSUE-006,QA test environment refresh is intermittent,Environment,Medium,Medium,Rohan Das,2026-04-27,Open,Pin a stable test data snapshot
+ISSUE-007,Ticket priority mapping differs from support policy,Product,Low,Medium,Ananya Rao,2026-04-29,In Progress,Review mapping with support lead
+ISSUE-008,Steering requested cost forecast sensitivity view,Governance,Low,Low,Aarav Mehta,2026-04-30,Open,Add base and risk-adjusted EAC in next pack
+ISSUE-009,Citation drawer keyboard focus order fails review,Accessibility,Medium,Medium,Ishaan Patel,2026-05-04,Open,Repair focus order and include keyboard test

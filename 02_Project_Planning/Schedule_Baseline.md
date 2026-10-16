@@ -1,0 +1,3 @@
+# Schedule Baseline
+
+Baseline: 2026-01-05 through 2026-07-03 (180 calendar days inclusive). Thirteen two-week sprint periods are defined; the final period is clipped to the baseline end date. Work packages use finish-to-start dependencies; the validation script checks every predecessor exists and ends before its successor begins. The delivery critical chain is source approval and ingestion → retrieval/evaluation → integrated testing → UAT → go-live. Parallel UX, access and ticket work has separate dependencies. Forecast dates carry explicit risk-related shifts; baseline dates remain unchanged. Sprint-window length is configured independently of project duration.

@@ -1,0 +1,10 @@
+﻿stakeholderId,name,role,power,interest,engagementStrategy,channel,cadence
+STK-001,Executive Sponsor,Sponsor,High,High,Manage closely,Steering committee,Monthly
+STK-002,Portfolio Project Manager,Project Manager,High,High,Manage closely,Delivery review,Weekly
+STK-003,Product Manager,Product owner,High,High,Co-create,Backlog and sprint review,Twice weekly
+STK-004,Support Operations Lead,Business lead,High,High,Involve in decisions,Workshop and demo,Biweekly
+STK-005,Security Lead,Control owner,High,Medium,Review gates,Security review,Monthly / gates
+STK-006,Customer Experience Lead,Business stakeholder,Medium,High,Keep engaged,User research,Monthly
+STK-007,Engineering Lead,Delivery lead,High,High,Daily collaboration,Team sync,Daily
+STK-008,Finance Partner,Financial control,Medium,Medium,Provide cost visibility,Cost report,Monthly
+STK-009,Data Governance Lead,Data owner,High,Medium,Approve corpus,Review and sign-off,At gates

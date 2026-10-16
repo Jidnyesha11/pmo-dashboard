@@ -1,0 +1,11 @@
+﻿resourceId,name,role,workstream,availableHoursPerWeek,allocatedHoursPerWeek,actualHoursLastWeek,hourlyCostINR
+RES-001,Aarav Mehta,Project Manager,Governance,40,40,33,1800
+RES-002,Ananya Rao,Product Manager,Product,40,36,30,1600
+RES-003,Kabir Shah,Backend Developer,Engineering,40,40,38,1400
+RES-004,Mira Nair,Backend Developer,Engineering,40,36,34,1400
+RES-005,Ishaan Patel,Frontend Developer,Engineering,40,36,32,1350
+RES-006,Diya Iyer,Frontend Developer,Engineering,40,36,35,1350
+RES-007,Neel Kapoor,AI Engineer,AI and Data,40,40,38,1700
+RES-008,Tara Joshi,UI/UX Designer,Design,40,28,25,1300
+RES-009,Rohan Das,QA Engineer,Quality,40,42,37,1200
+RES-010,Sana Khan,QA Engineer,Quality,40,40,36,1200

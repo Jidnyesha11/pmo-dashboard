@@ -1,0 +1,9 @@
+﻿milestoneId,name,baselineDate,forecastDate,status,owner
+MILESTONE-001,Charter approved,2026-01-05,2026-01-14,Complete,Aarav Mehta
+MILESTONE-002,Requirements baseline approved,2026-01-28,2026-02-03,Complete,Aarav Mehta
+MILESTONE-003,Architecture and security review,2026-02-09,2026-02-15,Complete,Aarav Mehta
+MILESTONE-004,Knowledge retrieval MVP,2026-03-17,2026-03-23,At Risk,Aarav Mehta
+MILESTONE-005,Customer chat and ticket MVP,2026-04-12,2026-04-19,Not Started,Aarav Mehta
+MILESTONE-006,Integrated system test exit,2026-05-14,2026-05-21,Not Started,Aarav Mehta
+MILESTONE-007,UAT sign-off,2026-06-07,2026-06-13,Not Started,Aarav Mehta
+MILESTONE-008,Production go-live,2026-06-27,2026-07-03,Not Started,Aarav Mehta

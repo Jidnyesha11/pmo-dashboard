@@ -1,0 +1,3 @@
+# Financial Assumptions
+
+Budget baseline ₹2,500,000: Development ₹1,000,000; AI and cloud ₹400,000; Design ₹200,000; Testing ₹200,000; Infrastructure ₹300,000; Contingency ₹400,000. Delivery baseline excluding contingency: ₹2,100,000. Contingency is held separately and is not automatically consumed or a saving. Monthly actuals through reporting period reconcile to ₹1,209,999; planned delivery through all periods totals ₹2,099,998. Budget variance = baseline − actual; positive is under budget. Commitments are zero in this simulation. Forecast at completion is an estimate, not actual expenditure. All amounts are simulated INR.

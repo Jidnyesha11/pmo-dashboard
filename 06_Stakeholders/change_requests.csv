@@ -1,0 +1,2 @@
+﻿changeRequestId,date,title,requestor,impact,status,approver
+CR-001,2026-04-08,Add accessibility review to MVP exit criteria,Support Operations Lead,QA effort and release acceptance gate,Approved,Executive Sponsor

@@ -1,0 +1,9 @@
+﻿deliverable,Accountable,Responsible,Consulted,Informed
+Charter and baseline,Executive Sponsor,Project Manager,Product Manager; Finance Partner,Delivery team
+Product backlog,Product Manager,Product Manager,Support Operations; Engineering,Sponsor
+Architecture and APIs,Engineering Lead,Backend Developers,Security Lead; AI Engineer,Product Manager
+Knowledge corpus approval,Data Governance Lead,Product Manager,Security Lead; AI Engineer,Sponsor
+AI evaluation and guardrails,Product Manager,AI Engineer,Security Lead; Support Operations,Sponsor
+Quality and UAT,Support Operations Lead,QA Engineers,Product Manager; Engineering,Sponsor
+Budget and forecast,Executive Sponsor,Project Manager,Finance Partner,Delivery team
+Production release,Executive Sponsor,Project Manager,Engineering; Security; Support Operations,Stakeholders

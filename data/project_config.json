@@ -1,0 +1,39 @@
+{
+  "projectId": "PRJ-AI-001",
+  "projectName": "AI Customer Support Automation Platform",
+  "company": "Northstar Retail (fictional)",
+  "projectManager": "Portfolio Project Manager (simulation)",
+  "startDate": "2026-01-05",
+  "endDate": "2026-07-03",
+  "reportingDate": "2026-04-17",
+  "budgetBaseline": 2500000,
+  "currency": "INR",
+  "currencySymbol": "\u20b9",
+  "sprintDurationDays": 14,
+  "selectedSprintWindow": 6,
+  "teamSize": 10,
+  "methodology": "Agile Scrum",
+  "reportingCadence": {
+    "deliveryReview": "Weekly",
+    "steeringCommittee": "Monthly"
+  },
+  "budgetCategories": {
+    "Development": 1000000,
+    "AI and cloud": 400000,
+    "Design": 200000,
+    "Testing": 200000,
+    "Infrastructure": 300000,
+    "Contingency": 400000
+  },
+  "riskThresholds": {
+    "lowMax": 4,
+    "mediumMax": 9,
+    "highMax": 15
+  },
+  "assumptions": [
+    "Six-month delivery baseline; two-week sprints.",
+    "All names, costs, customer measures and outcomes are simulated.",
+    "Initial view shows six sprints; the complete lifecycle spans six months.",
+    "Reporting currency is Indian Rupees (INR)."
+  ]
+}

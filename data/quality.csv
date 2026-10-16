@@ -1,0 +1,5 @@
+﻿observationDate,sampleSize,answeredCount,accurateAnswerCount,groundedCount,unsupportedCount,humanEscalations,automatedResolutions,avgLatencySeconds,retrievalRelevantCount,uatPassed,uatExecuted,defectCount,reopenedTickets,resolvedTickets
+2026-01-31,200,190,172,168,12,50,112,2.8,164,18,24,9,8,120
+2026-02-28,200,192,177,171,11,47,116,2.6799999999999997,168,21,27,8,7,130
+2026-03-31,200,194,182,174,10,44,120,2.5599999999999996,172,24,30,7,6,140
+2026-04-17,200,196,187,177,9,41,124,2.44,176,27,33,6,5,150

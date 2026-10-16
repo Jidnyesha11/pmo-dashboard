@@ -1,0 +1,3881 @@
+{
+  "config": {
+    "projectId": "PRJ-AI-001",
+    "projectName": "AI Customer Support Automation Platform",
+    "company": "Northstar Retail (fictional)",
+    "projectManager": "Portfolio Project Manager (simulation)",
+    "startDate": "2026-01-05",
+    "endDate": "2026-07-03",
+    "reportingDate": "2026-04-17",
+    "budgetBaseline": 2500000,
+    "currency": "INR",
+    "currencySymbol": "\u20b9",
+    "sprintDurationDays": 14,
+    "selectedSprintWindow": 6,
+    "teamSize": 10,
+    "methodology": "Agile Scrum",
+    "reportingCadence": {
+      "deliveryReview": "Weekly",
+      "steeringCommittee": "Monthly"
+    },
+    "budgetCategories": {
+      "Development": 1000000,
+      "AI and cloud": 400000,
+      "Design": 200000,
+      "Testing": 200000,
+      "Infrastructure": 300000,
+      "Contingency": 400000
+    },
+    "riskThresholds": {
+      "lowMax": 4,
+      "mediumMax": 9,
+      "highMax": 15
+    },
+    "assumptions": [
+      "Six-month delivery baseline; two-week sprints.",
+      "All names, costs, customer measures and outcomes are simulated.",
+      "Initial view shows six sprints; the complete lifecycle spans six months.",
+      "Reporting currency is Indian Rupees (INR)."
+    ]
+  },
+  "tasks": [
+    {
+      "taskId": "TASK-001",
+      "wbsId": "1.01",
+      "taskName": "Charter and governance baseline",
+      "workstream": "Initiation & governance",
+      "owner": "Aarav Mehta",
+      "priority": "High",
+      "status": "Complete",
+      "baselineStart": "2026-01-05",
+      "baselineEnd": "2026-01-09",
+      "forecastStart": "2026-01-05",
+      "forecastEnd": "2026-01-09",
+      "durationDays": 5,
+      "dependencyIds": "",
+      "completionPct": 100,
+      "sprintId": "SPRINT-01",
+      "milestone": false,
+      "budgetedValueINR": 11986,
+      "plannedValueINR": 11986,
+      "earnedValueINR": 11986,
+      "storyId": ""
+    },
+    {
+      "taskId": "TASK-002",
+      "wbsId": "1.02",
+      "taskName": "Stakeholder discovery and kickoff",
+      "workstream": "Initiation & governance",
+      "owner": "Ananya Rao",
+      "priority": "High",
+      "status": "Complete",
+      "baselineStart": "2026-01-05",
+      "baselineEnd": "2026-01-12",
+      "forecastStart": "2026-01-05",
+      "forecastEnd": "2026-01-12",
+      "durationDays": 8,
+      "dependencyIds": "TASK-001",
+      "completionPct": 100,
+      "sprintId": "SPRINT-01",
+      "milestone": false,
+      "budgetedValueINR": 19178,
+      "plannedValueINR": 19178,
+      "earnedValueINR": 19178,
+      "storyId": ""
+    },
+    {
+      "taskId": "TASK-003",
+      "wbsId": "2.01",
+      "taskName": "Customer support workflow discovery",
+      "workstream": "Discovery & requirements",
+      "owner": "Ananya Rao",
+      "priority": "High",
+      "status": "Complete",
+      "baselineStart": "2026-01-10",
+      "baselineEnd": "2026-01-19",
+      "forecastStart": "2026-01-10",
+      "forecastEnd": "2026-01-19",
+      "durationDays": 10,
+      "dependencyIds": "TASK-002",
+      "completionPct": 100,
+      "sprintId": "SPRINT-01",
+      "milestone": false,
+      "budgetedValueINR": 23973,
+      "plannedValueINR": 23973,
+      "earnedValueINR": 23973,
+      "storyId": ""
+    },
+    {
+      "taskId": "TASK-004",
+      "wbsId": "2.02",
+      "taskName": "Product requirements and acceptance baseline",
+      "workstream": "Discovery & requirements",
+      "owner": "Ananya Rao",
+      "priority": "High",
+      "status": "Complete",
+      "baselineStart": "2026-01-14",
+      "baselineEnd": "2026-01-26",
+      "forecastStart": "2026-01-14",
+      "forecastEnd": "2026-01-26",
+      "durationDays": 13,
+      "dependencyIds": "TASK-003",
+      "completionPct": 100,
+      "sprintId": "SPRINT-01",
+      "milestone": false,
+      "budgetedValueINR": 31164,
+      "plannedValueINR": 31164,
+      "earnedValueINR": 31164,
+      "storyId": ""
+    },
+    {
+      "taskId": "TASK-005",
+      "wbsId": "3.01",
+      "taskName": "Conversation journey and wireframes",
+      "workstream": "UX/UI design",
+      "owner": "Tara Joshi",
+      "priority": "High",
+      "status": "Complete",
+      "baselineStart": "2026-01-16",
+      "baselineEnd": "2026-01-30",
+      "forecastStart": "2026-01-16",
+      "forecastEnd": "2026-01-30",
+      "durationDays": 15,
+      "dependencyIds": "TASK-003",
+      "completionPct": 100,
+      "sprintId": "SPRINT-01",
+      "milestone": false,
+      "budgetedValueINR": 35959,
+      "plannedValueINR": 35959,
+      "earnedValueINR": 35959,
+      "storyId": ""
+    },
+    {
+      "taskId": "TASK-006",
+      "wbsId": "3.02",
+      "taskName": "Admin console interaction design",
+      "workstream": "UX/UI design",
+      "owner": "Tara Joshi",
+      "priority": "Medium",
+      "status": "In Progress",
+      "baselineStart": "2026-01-24",
+      "baselineEnd": "2026-02-07",
+      "forecastStart": "2026-01-24",
+      "forecastEnd": "2026-02-07",
+      "durationDays": 15,
+      "dependencyIds": "TASK-005",
+      "completionPct": 75,
+      "sprintId": "SPRINT-02",
+      "milestone": false,
+      "budgetedValueINR": 35959,
+      "plannedValueINR": 35959,
+      "earnedValueINR": 26969,
+      "storyId": ""
+    },
+    {
+      "taskId": "TASK-007",
+      "wbsId": "4.01",
+      "taskName": "Service architecture and API contracts",
+      "workstream": "Backend & APIs",
+      "owner": "Kabir Shah",
+      "priority": "High",
+      "status": "Complete",
+      "baselineStart": "2026-01-14",
+      "baselineEnd": "2026-01-28",
+      "forecastStart": "2026-01-14",
+      "forecastEnd": "2026-01-28",
+      "durationDays": 15,
+      "dependencyIds": "TASK-003",
+      "completionPct": 100,
+      "sprintId": "SPRINT-01",
+      "milestone": false,
+      "budgetedValueINR": 35959,
+      "plannedValueINR": 35959,
+      "earnedValueINR": 35959,
+      "storyId": ""
+    },
+    {
+      "taskId": "TASK-008",
+      "wbsId": "5.01",
+      "taskName": "Role model and authorization design",
+      "workstream": "Authentication & access",
+      "owner": "Kabir Shah",
+      "priority": "High",
+      "status": "In Progress",
+      "baselineStart": "2026-01-24",
+      "baselineEnd": "2026-02-04",
+      "forecastStart": "2026-01-24",
+      "forecastEnd": "2026-02-04",
+      "durationDays": 12,
+      "dependencyIds": "TASK-007",
+      "completionPct": 85,
+      "sprintId": "SPRINT-02",
+      "milestone": false,
+      "budgetedValueINR": 28767,
+      "plannedValueINR": 28767,
+      "earnedValueINR": 24452,
+      "storyId": "STORY-008"
+    },
+    {
+      "taskId": "TASK-009",
+      "wbsId": "5.02",
+      "taskName": "Identity integration and audit events",
+      "workstream": "Authentication & access",
+      "owner": "Mira Nair",
+      "priority": "High",
+      "status": "In Progress",
+      "baselineStart": "2026-02-01",
+      "baselineEnd": "2026-02-21",
+      "forecastStart": "2026-02-01",
+      "forecastEnd": "2026-02-21",
+      "durationDays": 21,
+      "dependencyIds": "TASK-008",
+      "completionPct": 60,
+      "sprintId": "SPRINT-02",
+      "milestone": false,
+      "budgetedValueINR": 50342,
+      "plannedValueINR": 50342,
+      "earnedValueINR": 30205,
+      "storyId": "STORY-015"
+    },
+    {
+      "taskId": "TASK-010",
+      "wbsId": "6.01",
+      "taskName": "Document inventory and access policy",
+      "workstream": "Knowledge ingestion",
+      "owner": "Neel Kapoor",
+      "priority": "High",
+      "status": "Complete",
+      "baselineStart": "2026-01-20",
+      "baselineEnd": "2026-02-01",
+      "forecastStart": "2026-01-20",
+      "forecastEnd": "2026-02-01",
+      "durationDays": 13,
+      "dependencyIds": "TASK-003",
+      "completionPct": 100,
+      "sprintId": "SPRINT-02",
+      "milestone": false,
+      "budgetedValueINR": 31164,
+      "plannedValueINR": 31164,
+      "earnedValueINR": 31164,
+      "storyId": "STORY-003"
+    },
+    {
+      "taskId": "TASK-011",
+      "wbsId": "6.02",
+      "taskName": "Ingestion and parsing pipeline",
+      "workstream": "Knowledge ingestion",
+      "owner": "Neel Kapoor",
+      "priority": "High",
+      "status": "In Progress",
+      "baselineStart": "2026-01-31",
+      "baselineEnd": "2026-02-25",
+      "forecastStart": "2026-01-31",
+      "forecastEnd": "2026-02-25",
+      "durationDays": 26,
+      "dependencyIds": "TASK-010",
+      "completionPct": 65,
+      "sprintId": "SPRINT-02",
+      "milestone": false,
+      "budgetedValueINR": 62329,
+      "plannedValueINR": 62329,
+      "earnedValueINR": 40514,
+      "storyId": "STORY-010"
+    },
+    {
+      "taskId": "TASK-012",
+      "wbsId": "6.03",
+      "taskName": "Metadata, versioning and index refresh",
+      "workstream": "Knowledge ingestion",
+      "owner": "Mira Nair",
+      "priority": "Medium",
+      "status": "In Progress",
+      "baselineStart": "2026-02-15",
+      "baselineEnd": "2026-03-07",
+      "forecastStart": "2026-02-15",
+      "forecastEnd": "2026-03-10",
+      "durationDays": 21,
+      "dependencyIds": "TASK-011",
+      "completionPct": 35,
+      "sprintId": "SPRINT-03",
+      "milestone": false,
+      "budgetedValueINR": 50342,
+      "plannedValueINR": 50342,
+      "earnedValueINR": 17620,
+      "storyId": "STORY-017"
+    },
+    {
+      "taskId": "TASK-013",
+      "wbsId": "7.01",
+      "taskName": "Retrieval baseline and evaluation set",
+      "workstream": "Retrieval & RAG",
+      "owner": "Neel Kapoor",
+      "priority": "High",
+      "status": "Complete",
+      "baselineStart": "2026-01-30",
+      "baselineEnd": "2026-02-13",
+      "forecastStart": "2026-01-30",
+      "forecastEnd": "2026-02-13",
+      "durationDays": 15,
+      "dependencyIds": "TASK-010",
+      "completionPct": 100,
+      "sprintId": "SPRINT-02",
+      "milestone": false,
+      "budgetedValueINR": 35959,
+      "plannedValueINR": 35959,
+      "earnedValueINR": 35959,
+      "storyId": "STORY-004"
+    },
+    {
+      "taskId": "TASK-014",
+      "wbsId": "7.02",
+      "taskName": "Grounded answer orchestration and citations",
+      "workstream": "Retrieval & RAG",
+      "owner": "Neel Kapoor",
+      "priority": "Critical",
+      "status": "In Progress",
+      "baselineStart": "2026-02-12",
+      "baselineEnd": "2026-03-14",
+      "forecastStart": "2026-02-12",
+      "forecastEnd": "2026-03-17",
+      "durationDays": 31,
+      "dependencyIds": "TASK-013",
+      "completionPct": 45,
+      "sprintId": "SPRINT-03",
+      "milestone": false,
+      "budgetedValueINR": 74315,
+      "plannedValueINR": 74315,
+      "earnedValueINR": 33442,
+      "storyId": "STORY-011"
+    },
+    {
+      "taskId": "TASK-015",
+      "wbsId": "8.01",
+      "taskName": "Escalation policy and safety guardrails",
+      "workstream": "AI guardrails",
+      "owner": "Ananya Rao",
+      "priority": "Critical",
+      "status": "In Progress",
+      "baselineStart": "2026-02-12",
+      "baselineEnd": "2026-03-05",
+      "forecastStart": "2026-02-12",
+      "forecastEnd": "2026-03-08",
+      "durationDays": 22,
+      "dependencyIds": "TASK-013",
+      "completionPct": 40,
+      "sprintId": "SPRINT-03",
+      "milestone": false,
+      "budgetedValueINR": 52740,
+      "plannedValueINR": 52740,
+      "earnedValueINR": 21096,
+      "storyId": ""
+    },
+    {
+      "taskId": "TASK-016",
+      "wbsId": "9.01",
+      "taskName": "Chat interface and source references",
+      "workstream": "Customer chat frontend",
+      "owner": "Ishaan Patel",
+      "priority": "High",
+      "status": "In Progress",
+      "baselineStart": "2026-02-07",
+      "baselineEnd": "2026-03-03",
+      "forecastStart": "2026-02-07",
+      "forecastEnd": "2026-03-03",
+      "durationDays": 25,
+      "dependencyIds": "TASK-005",
+      "completionPct": 68,
+      "sprintId": "SPRINT-03",
+      "milestone": false,
+      "budgetedValueINR": 59932,
+      "plannedValueINR": 59932,
+      "earnedValueINR": 40754,
+      "storyId": "STORY-002"
+    },
+    {
+      "taskId": "TASK-017",
+      "wbsId": "9.02",
+      "taskName": "Accessibility and responsive states",
+      "workstream": "Customer chat frontend",
+      "owner": "Diya Iyer",
+      "priority": "Medium",
+      "status": "Not Started",
+      "baselineStart": "2026-02-21",
+      "baselineEnd": "2026-03-12",
+      "forecastStart": "2026-02-21",
+      "forecastEnd": "2026-03-12",
+      "durationDays": 20,
+      "dependencyIds": "TASK-016",
+      "completionPct": 0,
+      "sprintId": "SPRINT-04",
+      "milestone": false,
+      "budgetedValueINR": 47945,
+      "plannedValueINR": 47945,
+      "earnedValueINR": 0,
+      "storyId": "STORY-009"
+    },
+    {
+      "taskId": "TASK-018",
+      "wbsId": "10.01",
+      "taskName": "Ticket creation and assignment API",
+      "workstream": "Ticket management",
+      "owner": "Mira Nair",
+      "priority": "High",
+      "status": "In Progress",
+      "baselineStart": "2026-02-18",
+      "baselineEnd": "2026-03-14",
+      "forecastStart": "2026-02-18",
+      "forecastEnd": "2026-03-17",
+      "durationDays": 25,
+      "dependencyIds": "TASK-009",
+      "completionPct": 42,
+      "sprintId": "SPRINT-04",
+      "milestone": false,
+      "budgetedValueINR": 59932,
+      "plannedValueINR": 59932,
+      "earnedValueINR": 25171,
+      "storyId": "STORY-019"
+    },
+    {
+      "taskId": "TASK-019",
+      "wbsId": "10.02",
+      "taskName": "Agent queue and status transitions",
+      "workstream": "Ticket management",
+      "owner": "Ishaan Patel",
+      "priority": "High",
+      "status": "Not Started",
+      "baselineStart": "2026-03-01",
+      "baselineEnd": "2026-03-22",
+      "forecastStart": "2026-03-01",
+      "forecastEnd": "2026-03-22",
+      "durationDays": 22,
+      "dependencyIds": "TASK-018",
+      "completionPct": 0,
+      "sprintId": "SPRINT-04",
+      "milestone": false,
+      "budgetedValueINR": 52740,
+      "plannedValueINR": 52740,
+      "earnedValueINR": 0,
+      "storyId": "STORY-005"
+    },
+    {
+      "taskId": "TASK-020",
+      "wbsId": "11.01",
+      "taskName": "Quality metrics and configuration screens",
+      "workstream": "Admin dashboard",
+      "owner": "Diya Iyer",
+      "priority": "Medium",
+      "status": "Not Started",
+      "baselineStart": "2026-03-04",
+      "baselineEnd": "2026-03-30",
+      "forecastStart": "2026-03-04",
+      "forecastEnd": "2026-03-30",
+      "durationDays": 27,
+      "dependencyIds": "TASK-006",
+      "completionPct": 0,
+      "sprintId": "SPRINT-05",
+      "milestone": false,
+      "budgetedValueINR": 64726,
+      "plannedValueINR": 64726,
+      "earnedValueINR": 0,
+      "storyId": "STORY-013"
+    },
+    {
+      "taskId": "TASK-021",
+      "wbsId": "12.01",
+      "taskName": "Event model and operational telemetry",
+      "workstream": "Analytics & monitoring",
+      "owner": "Kabir Shah",
+      "priority": "Medium",
+      "status": "In Progress",
+      "baselineStart": "2026-02-25",
+      "baselineEnd": "2026-03-17",
+      "forecastStart": "2026-02-25",
+      "forecastEnd": "2026-03-20",
+      "durationDays": 21,
+      "dependencyIds": "TASK-014",
+      "completionPct": 20,
+      "sprintId": "SPRINT-04",
+      "milestone": false,
+      "budgetedValueINR": 50342,
+      "plannedValueINR": 50342,
+      "earnedValueINR": 10068,
+      "storyId": "STORY-021"
+    },
+    {
+      "taskId": "TASK-022",
+      "wbsId": "13.01",
+      "taskName": "CRM sandbox and service integration",
+      "workstream": "Integration",
+      "owner": "Mira Nair",
+      "priority": "High",
+      "status": "Not Started",
+      "baselineStart": "2026-03-10",
+      "baselineEnd": "2026-04-02",
+      "forecastStart": "2026-03-10",
+      "forecastEnd": "2026-04-02",
+      "durationDays": 24,
+      "dependencyIds": "TASK-018",
+      "completionPct": 0,
+      "sprintId": "SPRINT-05",
+      "milestone": false,
+      "budgetedValueINR": 57534,
+      "plannedValueINR": 57534,
+      "earnedValueINR": 0,
+      "storyId": ""
+    },
+    {
+      "taskId": "TASK-023",
+      "wbsId": "14.01",
+      "taskName": "Test strategy and automation framework",
+      "workstream": "QA & security",
+      "owner": "Rohan Das",
+      "priority": "High",
+      "status": "Complete",
+      "baselineStart": "2026-01-30",
+      "baselineEnd": "2026-02-12",
+      "forecastStart": "2026-01-30",
+      "forecastEnd": "2026-02-12",
+      "durationDays": 14,
+      "dependencyIds": "TASK-004",
+      "completionPct": 100,
+      "sprintId": "SPRINT-02",
+      "milestone": false,
+      "budgetedValueINR": 33562,
+      "plannedValueINR": 33562,
+      "earnedValueINR": 33562,
+      "storyId": ""
+    },
+    {
+      "taskId": "TASK-024",
+      "wbsId": "14.02",
+      "taskName": "Security, privacy and access testing",
+      "workstream": "QA & security",
+      "owner": "Sana Khan",
+      "priority": "Critical",
+      "status": "Not Started",
+      "baselineStart": "2026-03-07",
+      "baselineEnd": "2026-04-06",
+      "forecastStart": "2026-03-07",
+      "forecastEnd": "2026-04-06",
+      "durationDays": 31,
+      "dependencyIds": "TASK-009",
+      "completionPct": 0,
+      "sprintId": "SPRINT-05",
+      "milestone": false,
+      "budgetedValueINR": 74315,
+      "plannedValueINR": 74315,
+      "earnedValueINR": 0,
+      "storyId": ""
+    },
+    {
+      "taskId": "TASK-025",
+      "wbsId": "14.03",
+      "taskName": "Functional, regression and load testing",
+      "workstream": "QA & security",
+      "owner": "Rohan Das",
+      "priority": "High",
+      "status": "Not Started",
+      "baselineStart": "2026-03-15",
+      "baselineEnd": "2026-04-15",
+      "forecastStart": "2026-03-15",
+      "forecastEnd": "2026-04-15",
+      "durationDays": 32,
+      "dependencyIds": "TASK-019",
+      "completionPct": 0,
+      "sprintId": "SPRINT-05",
+      "milestone": false,
+      "budgetedValueINR": 76712,
+      "plannedValueINR": 76712,
+      "earnedValueINR": 0,
+      "storyId": ""
+    },
+    {
+      "taskId": "TASK-026",
+      "wbsId": "15.01",
+      "taskName": "Offline quality evaluation and tuning",
+      "workstream": "AI evaluation",
+      "owner": "Neel Kapoor",
+      "priority": "High",
+      "status": "Not Started",
+      "baselineStart": "2026-03-07",
+      "baselineEnd": "2026-04-05",
+      "forecastStart": "2026-03-07",
+      "forecastEnd": "2026-04-05",
+      "durationDays": 30,
+      "dependencyIds": "TASK-014",
+      "completionPct": 0,
+      "sprintId": "SPRINT-05",
+      "milestone": false,
+      "budgetedValueINR": 71918,
+      "plannedValueINR": 71918,
+      "earnedValueINR": 0,
+      "storyId": "STORY-011"
+    },
+    {
+      "taskId": "TASK-027",
+      "wbsId": "16.01",
+      "taskName": "UAT scripts, sessions and sign-off",
+      "workstream": "UAT",
+      "owner": "Ananya Rao",
+      "priority": "High",
+      "status": "Not Started",
+      "baselineStart": "2026-04-05",
+      "baselineEnd": "2026-04-22",
+      "forecastStart": "2026-04-05",
+      "forecastEnd": "2026-04-22",
+      "durationDays": 18,
+      "dependencyIds": "TASK-024",
+      "completionPct": 0,
+      "sprintId": "SPRINT-07",
+      "milestone": false,
+      "budgetedValueINR": 43151,
+      "plannedValueINR": 31165,
+      "earnedValueINR": 0,
+      "storyId": ""
+    },
+    {
+      "taskId": "TASK-028",
+      "wbsId": "17.01",
+      "taskName": "Release checklist and agent training",
+      "workstream": "Deployment & training",
+      "owner": "Aarav Mehta",
+      "priority": "High",
+      "status": "Not Started",
+      "baselineStart": "2026-04-19",
+      "baselineEnd": "2026-05-03",
+      "forecastStart": "2026-04-19",
+      "forecastEnd": "2026-05-03",
+      "durationDays": 15,
+      "dependencyIds": "TASK-027",
+      "completionPct": 0,
+      "sprintId": "SPRINT-08",
+      "milestone": false,
+      "budgetedValueINR": 35959,
+      "plannedValueINR": 0,
+      "earnedValueINR": 0,
+      "storyId": ""
+    },
+    {
+      "taskId": "TASK-029",
+      "wbsId": "17.02",
+      "taskName": "Production rollout and go/no-go",
+      "workstream": "Deployment & training",
+      "owner": "Aarav Mehta",
+      "priority": "Critical",
+      "status": "Not Started",
+      "baselineStart": "2026-05-04",
+      "baselineEnd": "2026-05-10",
+      "forecastStart": "2026-05-04",
+      "forecastEnd": "2026-05-10",
+      "durationDays": 7,
+      "dependencyIds": "TASK-028",
+      "completionPct": 0,
+      "sprintId": "SPRINT-09",
+      "milestone": false,
+      "budgetedValueINR": 16781,
+      "plannedValueINR": 0,
+      "earnedValueINR": 0,
+      "storyId": ""
+    },
+    {
+      "taskId": "TASK-030",
+      "wbsId": "18.01",
+      "taskName": "Hypercare, KPI review and closure",
+      "workstream": "Monitoring & closure",
+      "owner": "Aarav Mehta",
+      "priority": "Medium",
+      "status": "Not Started",
+      "baselineStart": "2026-05-11",
+      "baselineEnd": "2026-07-03",
+      "forecastStart": "2026-05-11",
+      "forecastEnd": "2026-07-03",
+      "durationDays": 54,
+      "dependencyIds": "TASK-029",
+      "completionPct": 0,
+      "sprintId": "SPRINT-10",
+      "milestone": false,
+      "budgetedValueINR": 129452,
+      "plannedValueINR": 0,
+      "earnedValueINR": 0,
+      "storyId": ""
+    },
+    {
+      "taskId": "TASK-031",
+      "wbsId": "19.01",
+      "taskName": "Change control and monthly steering",
+      "workstream": "Governance",
+      "owner": "Aarav Mehta",
+      "priority": "Medium",
+      "status": "In Progress",
+      "baselineStart": "2026-01-05",
+      "baselineEnd": "2026-07-03",
+      "forecastStart": "2026-01-05",
+      "forecastEnd": "2026-07-03",
+      "durationDays": 180,
+      "dependencyIds": "TASK-001",
+      "completionPct": 55,
+      "sprintId": "SPRINT-01",
+      "milestone": false,
+      "budgetedValueINR": 431507,
+      "plannedValueINR": 246918,
+      "earnedValueINR": 237329,
+      "storyId": ""
+    },
+    {
+      "taskId": "TASK-032",
+      "wbsId": "6.04",
+      "taskName": "Approved source-owner sign-off",
+      "workstream": "Knowledge ingestion",
+      "owner": "Ananya Rao",
+      "priority": "High",
+      "status": "At Risk",
+      "baselineStart": "2026-01-24",
+      "baselineEnd": "2026-02-16",
+      "forecastStart": "2026-01-24",
+      "forecastEnd": "2026-02-23",
+      "durationDays": 24,
+      "dependencyIds": "TASK-010",
+      "completionPct": 70,
+      "sprintId": "SPRINT-02",
+      "milestone": false,
+      "budgetedValueINR": 57534,
+      "plannedValueINR": 57534,
+      "earnedValueINR": 40274,
+      "storyId": "STORY-010"
+    },
+    {
+      "taskId": "TASK-033",
+      "wbsId": "13.02",
+      "taskName": "CRM API contract confirmation",
+      "workstream": "Integration",
+      "owner": "Kabir Shah",
+      "priority": "High",
+      "status": "At Risk",
+      "baselineStart": "2026-02-05",
+      "baselineEnd": "2026-02-28",
+      "forecastStart": "2026-02-05",
+      "forecastEnd": "2026-03-07",
+      "durationDays": 24,
+      "dependencyIds": "TASK-007",
+      "completionPct": 65,
+      "sprintId": "SPRINT-03",
+      "milestone": false,
+      "budgetedValueINR": 57534,
+      "plannedValueINR": 57534,
+      "earnedValueINR": 37397,
+      "storyId": ""
+    },
+    {
+      "taskId": "TASK-034",
+      "wbsId": "14.04",
+      "taskName": "Test data privacy review",
+      "workstream": "QA & security",
+      "owner": "Sana Khan",
+      "priority": "Critical",
+      "status": "In Progress",
+      "baselineStart": "2026-02-17",
+      "baselineEnd": "2026-03-06",
+      "forecastStart": "2026-02-17",
+      "forecastEnd": "2026-03-06",
+      "durationDays": 18,
+      "dependencyIds": "TASK-023",
+      "completionPct": 50,
+      "sprintId": "SPRINT-04",
+      "milestone": false,
+      "budgetedValueINR": 43151,
+      "plannedValueINR": 43151,
+      "earnedValueINR": 21576,
+      "storyId": ""
+    },
+    {
+      "taskId": "TASK-035",
+      "wbsId": "12.02",
+      "taskName": "Operational dashboard instrumentation",
+      "workstream": "Analytics & monitoring",
+      "owner": "Diya Iyer",
+      "priority": "Medium",
+      "status": "Not Started",
+      "baselineStart": "2026-03-25",
+      "baselineEnd": "2026-04-16",
+      "forecastStart": "2026-03-25",
+      "forecastEnd": "2026-04-16",
+      "durationDays": 23,
+      "dependencyIds": "TASK-021",
+      "completionPct": 0,
+      "sprintId": "SPRINT-06",
+      "milestone": false,
+      "budgetedValueINR": 55137,
+      "plannedValueINR": 55137,
+      "earnedValueINR": 0,
+      "storyId": "STORY-014"
+    }
+  ],
+  "team": [
+    {
+      "resourceId": "RES-001",
+      "name": "Aarav Mehta",
+      "role": "Project Manager",
+      "workstream": "Governance",
+      "availableHoursPerWeek": 40,
+      "allocatedHoursPerWeek": 40,
+      "actualHoursLastWeek": 33,
+      "hourlyCostINR": 1800
+    },
+    {
+      "resourceId": "RES-002",
+      "name": "Ananya Rao",
+      "role": "Product Manager",
+      "workstream": "Product",
+      "availableHoursPerWeek": 40,
+      "allocatedHoursPerWeek": 36,
+      "actualHoursLastWeek": 30,
+      "hourlyCostINR": 1600
+    },
+    {
+      "resourceId": "RES-003",
+      "name": "Kabir Shah",
+      "role": "Backend Developer",
+      "workstream": "Engineering",
+      "availableHoursPerWeek": 40,
+      "allocatedHoursPerWeek": 40,
+      "actualHoursLastWeek": 38,
+      "hourlyCostINR": 1400
+    },
+    {
+      "resourceId": "RES-004",
+      "name": "Mira Nair",
+      "role": "Backend Developer",
+      "workstream": "Engineering",
+      "availableHoursPerWeek": 40,
+      "allocatedHoursPerWeek": 36,
+      "actualHoursLastWeek": 34,
+      "hourlyCostINR": 1400
+    },
+    {
+      "resourceId": "RES-005",
+      "name": "Ishaan Patel",
+      "role": "Frontend Developer",
+      "workstream": "Engineering",
+      "availableHoursPerWeek": 40,
+      "allocatedHoursPerWeek": 36,
+      "actualHoursLastWeek": 32,
+      "hourlyCostINR": 1350
+    },
+    {
+      "resourceId": "RES-006",
+      "name": "Diya Iyer",
+      "role": "Frontend Developer",
+      "workstream": "Engineering",
+      "availableHoursPerWeek": 40,
+      "allocatedHoursPerWeek": 36,
+      "actualHoursLastWeek": 35,
+      "hourlyCostINR": 1350
+    },
+    {
+      "resourceId": "RES-007",
+      "name": "Neel Kapoor",
+      "role": "AI Engineer",
+      "workstream": "AI and Data",
+      "availableHoursPerWeek": 40,
+      "allocatedHoursPerWeek": 40,
+      "actualHoursLastWeek": 38,
+      "hourlyCostINR": 1700
+    },
+    {
+      "resourceId": "RES-008",
+      "name": "Tara Joshi",
+      "role": "UI/UX Designer",
+      "workstream": "Design",
+      "availableHoursPerWeek": 40,
+      "allocatedHoursPerWeek": 28,
+      "actualHoursLastWeek": 25,
+      "hourlyCostINR": 1300
+    },
+    {
+      "resourceId": "RES-009",
+      "name": "Rohan Das",
+      "role": "QA Engineer",
+      "workstream": "Quality",
+      "availableHoursPerWeek": 40,
+      "allocatedHoursPerWeek": 42,
+      "actualHoursLastWeek": 37,
+      "hourlyCostINR": 1200
+    },
+    {
+      "resourceId": "RES-010",
+      "name": "Sana Khan",
+      "role": "QA Engineer",
+      "workstream": "Quality",
+      "availableHoursPerWeek": 40,
+      "allocatedHoursPerWeek": 40,
+      "actualHoursLastWeek": 36,
+      "hourlyCostINR": 1200
+    }
+  ],
+  "epics": [
+    {
+      "epicId": "EPIC-001",
+      "name": "Authentication and access control"
+    },
+    {
+      "epicId": "EPIC-002",
+      "name": "Customer support chat"
+    },
+    {
+      "epicId": "EPIC-003",
+      "name": "Knowledge base"
+    },
+    {
+      "epicId": "EPIC-004",
+      "name": "AI / RAG pipeline"
+    },
+    {
+      "epicId": "EPIC-005",
+      "name": "Ticket management"
+    },
+    {
+      "epicId": "EPIC-006",
+      "name": "Admin dashboard"
+    },
+    {
+      "epicId": "EPIC-007",
+      "name": "Analytics and monitoring"
+    }
+  ],
+  "sprints": [
+    {
+      "sprintId": "SPRINT-01",
+      "name": "Sprint 01",
+      "startDate": "2026-01-05",
+      "endDate": "2026-01-18",
+      "goal": "Foundation and discovery",
+      "selected": true
+    },
+    {
+      "sprintId": "SPRINT-02",
+      "name": "Sprint 02",
+      "startDate": "2026-01-19",
+      "endDate": "2026-02-01",
+      "goal": "Foundation and discovery",
+      "selected": true
+    },
+    {
+      "sprintId": "SPRINT-03",
+      "name": "Sprint 03",
+      "startDate": "2026-02-02",
+      "endDate": "2026-02-15",
+      "goal": "Secure knowledge retrieval",
+      "selected": true
+    },
+    {
+      "sprintId": "SPRINT-04",
+      "name": "Sprint 04",
+      "startDate": "2026-02-16",
+      "endDate": "2026-03-01",
+      "goal": "Secure knowledge retrieval",
+      "selected": true
+    },
+    {
+      "sprintId": "SPRINT-05",
+      "name": "Sprint 05",
+      "startDate": "2026-03-02",
+      "endDate": "2026-03-15",
+      "goal": "Customer chat MVP",
+      "selected": true
+    },
+    {
+      "sprintId": "SPRINT-06",
+      "name": "Sprint 06",
+      "startDate": "2026-03-16",
+      "endDate": "2026-03-29",
+      "goal": "Customer chat MVP",
+      "selected": true
+    },
+    {
+      "sprintId": "SPRINT-07",
+      "name": "Sprint 07",
+      "startDate": "2026-03-30",
+      "endDate": "2026-04-12",
+      "goal": "Ticket workflows",
+      "selected": false
+    },
+    {
+      "sprintId": "SPRINT-08",
+      "name": "Sprint 08",
+      "startDate": "2026-04-13",
+      "endDate": "2026-04-26",
+      "goal": "Ticket workflows",
+      "selected": false
+    },
+    {
+      "sprintId": "SPRINT-09",
+      "name": "Sprint 09",
+      "startDate": "2026-04-27",
+      "endDate": "2026-05-10",
+      "goal": "Admin and analytics",
+      "selected": false
+    },
+    {
+      "sprintId": "SPRINT-10",
+      "name": "Sprint 10",
+      "startDate": "2026-05-11",
+      "endDate": "2026-05-24",
+      "goal": "Admin and analytics",
+      "selected": false
+    },
+    {
+      "sprintId": "SPRINT-11",
+      "name": "Sprint 11",
+      "startDate": "2026-05-25",
+      "endDate": "2026-06-07",
+      "goal": "Hardening and UAT",
+      "selected": false
+    },
+    {
+      "sprintId": "SPRINT-12",
+      "name": "Sprint 12",
+      "startDate": "2026-06-08",
+      "endDate": "2026-06-21",
+      "goal": "Hardening and UAT",
+      "selected": false
+    },
+    {
+      "sprintId": "SPRINT-13",
+      "name": "Sprint 13",
+      "startDate": "2026-06-22",
+      "endDate": "2026-07-03",
+      "goal": "Release readiness",
+      "selected": false
+    }
+  ],
+  "stories": [
+    {
+      "storyId": "STORY-001",
+      "epicId": "EPIC-001",
+      "story": "As an administrator, I can define role-based access",
+      "businessValue": "Reduce repeat handling and give agents traceable, actionable context.",
+      "acceptanceCriteria": "Given the approved role and scenario, when the user completes the flow, then the result is recorded and auditable (AC-01).",
+      "priority": "High",
+      "storyPoints": 3,
+      "dependencyIds": "",
+      "sprintId": "SPRINT-01",
+      "status": "Done"
+    },
+    {
+      "storyId": "STORY-002",
+      "epicId": "EPIC-002",
+      "story": "As an agent, I can sign in securely",
+      "businessValue": "Reduce repeat handling and give agents traceable, actionable context.",
+      "acceptanceCriteria": "Given the approved role and scenario, when the user completes the flow, then the result is recorded and auditable (AC-02).",
+      "priority": "High",
+      "storyPoints": 5,
+      "dependencyIds": "STORY-001",
+      "sprintId": "SPRINT-01",
+      "status": "Done"
+    },
+    {
+      "storyId": "STORY-003",
+      "epicId": "EPIC-003",
+      "story": "As a customer, I can ask a support question",
+      "businessValue": "Reduce repeat handling and give agents traceable, actionable context.",
+      "acceptanceCriteria": "Given the approved role and scenario, when the user completes the flow, then the result is recorded and auditable (AC-03).",
+      "priority": "High",
+      "storyPoints": 8,
+      "dependencyIds": "",
+      "sprintId": "SPRINT-02",
+      "status": "Done"
+    },
+    {
+      "storyId": "STORY-004",
+      "epicId": "EPIC-004",
+      "story": "As a customer, I can see cited source references",
+      "businessValue": "Reduce repeat handling and give agents traceable, actionable context.",
+      "acceptanceCriteria": "Given the approved role and scenario, when the user completes the flow, then the result is recorded and auditable (AC-04).",
+      "priority": "High",
+      "storyPoints": 5,
+      "dependencyIds": "STORY-003",
+      "sprintId": "SPRINT-02",
+      "status": "Done"
+    },
+    {
+      "storyId": "STORY-005",
+      "epicId": "EPIC-005",
+      "story": "As a customer, I can request a human agent",
+      "businessValue": "Reduce repeat handling and give agents traceable, actionable context.",
+      "acceptanceCriteria": "Given the approved role and scenario, when the user completes the flow, then the result is recorded and auditable (AC-05).",
+      "priority": "High",
+      "storyPoints": 3,
+      "dependencyIds": "STORY-003",
+      "sprintId": "SPRINT-03",
+      "status": "Done"
+    },
+    {
+      "storyId": "STORY-006",
+      "epicId": "EPIC-006",
+      "story": "As a support lead, I can review approved documents",
+      "businessValue": "Reduce repeat handling and give agents traceable, actionable context.",
+      "acceptanceCriteria": "Given the approved role and scenario, when the user completes the flow, then the result is recorded and auditable (AC-06).",
+      "priority": "High",
+      "storyPoints": 8,
+      "dependencyIds": "",
+      "sprintId": "SPRINT-03",
+      "status": "Done"
+    },
+    {
+      "storyId": "STORY-007",
+      "epicId": "EPIC-007",
+      "story": "As an administrator, I can refresh the knowledge index",
+      "businessValue": "Reduce repeat handling and give agents traceable, actionable context.",
+      "acceptanceCriteria": "Given the approved role and scenario, when the user completes the flow, then the result is recorded and auditable (AC-07).",
+      "priority": "High",
+      "storyPoints": 5,
+      "dependencyIds": "STORY-006",
+      "sprintId": "SPRINT-04",
+      "status": "Done"
+    },
+    {
+      "storyId": "STORY-008",
+      "epicId": "EPIC-001",
+      "story": "As a customer, I receive an answer grounded in approved content",
+      "businessValue": "Reduce repeat handling and give agents traceable, actionable context.",
+      "acceptanceCriteria": "Given the approved role and scenario, when the user completes the flow, then the result is recorded and auditable (AC-08).",
+      "priority": "High",
+      "storyPoints": 8,
+      "dependencyIds": "STORY-006",
+      "sprintId": "SPRINT-04",
+      "status": "Done"
+    },
+    {
+      "storyId": "STORY-009",
+      "epicId": "EPIC-002",
+      "story": "As an evaluator, I can score answer relevance",
+      "businessValue": "Reduce repeat handling and give agents traceable, actionable context.",
+      "acceptanceCriteria": "Given the approved role and scenario, when the user completes the flow, then the result is recorded and auditable (AC-09).",
+      "priority": "High",
+      "storyPoints": 5,
+      "dependencyIds": "STORY-008",
+      "sprintId": "SPRINT-05",
+      "status": "In Progress"
+    },
+    {
+      "storyId": "STORY-010",
+      "epicId": "EPIC-003",
+      "story": "As a support agent, I can view an escalated conversation",
+      "businessValue": "Reduce repeat handling and give agents traceable, actionable context.",
+      "acceptanceCriteria": "Given the approved role and scenario, when the user completes the flow, then the result is recorded and auditable (AC-10).",
+      "priority": "High",
+      "storyPoints": 3,
+      "dependencyIds": "",
+      "sprintId": "SPRINT-05",
+      "status": "In Progress"
+    },
+    {
+      "storyId": "STORY-011",
+      "epicId": "EPIC-004",
+      "story": "As a support agent, I can create a ticket from a chat",
+      "businessValue": "Reduce repeat handling and give agents traceable, actionable context.",
+      "acceptanceCriteria": "Given the approved role and scenario, when the user completes the flow, then the result is recorded and auditable (AC-11).",
+      "priority": "Medium",
+      "storyPoints": 8,
+      "dependencyIds": "STORY-010",
+      "sprintId": "SPRINT-06",
+      "status": "In Progress"
+    },
+    {
+      "storyId": "STORY-012",
+      "epicId": "EPIC-005",
+      "story": "As a support lead, I can assign a ticket",
+      "businessValue": "Reduce repeat handling and give agents traceable, actionable context.",
+      "acceptanceCriteria": "Given the approved role and scenario, when the user completes the flow, then the result is recorded and auditable (AC-12).",
+      "priority": "Medium",
+      "storyPoints": 5,
+      "dependencyIds": "STORY-011",
+      "sprintId": "SPRINT-06",
+      "status": "In Progress"
+    },
+    {
+      "storyId": "STORY-013",
+      "epicId": "EPIC-006",
+      "story": "As an agent, I can update ticket status",
+      "businessValue": "Reduce repeat handling and give agents traceable, actionable context.",
+      "acceptanceCriteria": "Given the approved role and scenario, when the user completes the flow, then the result is recorded and auditable (AC-13).",
+      "priority": "Medium",
+      "storyPoints": 3,
+      "dependencyIds": "STORY-012",
+      "sprintId": "SPRINT-07",
+      "status": "In Progress"
+    },
+    {
+      "storyId": "STORY-014",
+      "epicId": "EPIC-007",
+      "story": "As an administrator, I can review AI quality metrics",
+      "businessValue": "Reduce repeat handling and give agents traceable, actionable context.",
+      "acceptanceCriteria": "Given the approved role and scenario, when the user completes the flow, then the result is recorded and auditable (AC-14).",
+      "priority": "Medium",
+      "storyPoints": 5,
+      "dependencyIds": "STORY-009",
+      "sprintId": "SPRINT-07",
+      "status": "To Do"
+    },
+    {
+      "storyId": "STORY-015",
+      "epicId": "EPIC-001",
+      "story": "As an administrator, I can configure escalation thresholds",
+      "businessValue": "Reduce repeat handling and give agents traceable, actionable context.",
+      "acceptanceCriteria": "Given the approved role and scenario, when the user completes the flow, then the result is recorded and auditable (AC-15).",
+      "priority": "Medium",
+      "storyPoints": 3,
+      "dependencyIds": "STORY-005",
+      "sprintId": "SPRINT-08",
+      "status": "To Do"
+    },
+    {
+      "storyId": "STORY-016",
+      "epicId": "EPIC-002",
+      "story": "As a PMO analyst, I can view delivery health",
+      "businessValue": "Reduce repeat handling and give agents traceable, actionable context.",
+      "acceptanceCriteria": "Given the approved role and scenario, when the user completes the flow, then the result is recorded and auditable (AC-16).",
+      "priority": "Medium",
+      "storyPoints": 5,
+      "dependencyIds": "STORY-014",
+      "sprintId": "SPRINT-08",
+      "status": "To Do"
+    },
+    {
+      "storyId": "STORY-017",
+      "epicId": "EPIC-003",
+      "story": "As an administrator, I can monitor latency and failures",
+      "businessValue": "Reduce repeat handling and give agents traceable, actionable context.",
+      "acceptanceCriteria": "Given the approved role and scenario, when the user completes the flow, then the result is recorded and auditable (AC-17).",
+      "priority": "Medium",
+      "storyPoints": 8,
+      "dependencyIds": "STORY-014",
+      "sprintId": "SPRINT-09",
+      "status": "To Do"
+    },
+    {
+      "storyId": "STORY-018",
+      "epicId": "EPIC-004",
+      "story": "As a customer, I can use the chat on mobile",
+      "businessValue": "Reduce repeat handling and give agents traceable, actionable context.",
+      "acceptanceCriteria": "Given the approved role and scenario, when the user completes the flow, then the result is recorded and auditable (AC-18).",
+      "priority": "Medium",
+      "storyPoints": 5,
+      "dependencyIds": "STORY-003",
+      "sprintId": "SPRINT-09",
+      "status": "To Do"
+    },
+    {
+      "storyId": "STORY-019",
+      "epicId": "EPIC-005",
+      "story": "As a QA analyst, I can export evaluation results",
+      "businessValue": "Reduce repeat handling and give agents traceable, actionable context.",
+      "acceptanceCriteria": "Given the approved role and scenario, when the user completes the flow, then the result is recorded and auditable (AC-19).",
+      "priority": "Medium",
+      "storyPoints": 3,
+      "dependencyIds": "STORY-009",
+      "sprintId": "SPRINT-10",
+      "status": "To Do"
+    },
+    {
+      "storyId": "STORY-020",
+      "epicId": "EPIC-006",
+      "story": "As a support lead, I can view reopen rates",
+      "businessValue": "Reduce repeat handling and give agents traceable, actionable context.",
+      "acceptanceCriteria": "Given the approved role and scenario, when the user completes the flow, then the result is recorded and auditable (AC-20).",
+      "priority": "Medium",
+      "storyPoints": 3,
+      "dependencyIds": "STORY-013",
+      "sprintId": "SPRINT-10",
+      "status": "To Do"
+    },
+    {
+      "storyId": "STORY-021",
+      "epicId": "EPIC-007",
+      "story": "As an administrator, I can audit access events",
+      "businessValue": "Reduce repeat handling and give agents traceable, actionable context.",
+      "acceptanceCriteria": "Given the approved role and scenario, when the user completes the flow, then the result is recorded and auditable (AC-21).",
+      "priority": "Medium",
+      "storyPoints": 5,
+      "dependencyIds": "STORY-014",
+      "sprintId": "SPRINT-11",
+      "status": "To Do"
+    }
+  ],
+  "risks": [
+    {
+      "riskId": "RISK-001",
+      "description": "AI responses may include unsupported claims",
+      "category": "AI quality",
+      "probability": 4,
+      "impact": 5,
+      "score": 20,
+      "severity": "Critical",
+      "responseStrategy": "Mitigate",
+      "mitigation": "Require citations, confidence threshold and human fallback",
+      "owner": "Neel Kapoor",
+      "dueDate": "2026-05-15",
+      "reviewDate": "2026-05-08",
+      "status": "Open",
+      "trigger": "Unsupported answer rate > 5%",
+      "contingency": "Disable affected intent and route to agent",
+      "residualRisk": 15
+    },
+    {
+      "riskId": "RISK-002",
+      "description": "Unauthorized document exposure through retrieval",
+      "category": "Privacy & security",
+      "probability": 3,
+      "impact": 5,
+      "score": 15,
+      "severity": "High",
+      "responseStrategy": "Mitigate",
+      "mitigation": "ACL-aware retrieval tests and source-level permissions",
+      "owner": "Sana Khan",
+      "dueDate": "2026-05-08",
+      "reviewDate": "2026-05-01",
+      "status": "Open",
+      "trigger": "Any cross-role retrieval hit",
+      "contingency": "Disable index and investigate access trail",
+      "residualRisk": 10
+    },
+    {
+      "riskId": "RISK-003",
+      "description": "Uncontrolled requirements expand delivery scope",
+      "category": "Scope",
+      "probability": 4,
+      "impact": 4,
+      "score": 16,
+      "severity": "Critical",
+      "responseStrategy": "Mitigate",
+      "mitigation": "Change requests scored by impact and steering approval",
+      "owner": "Ananya Rao",
+      "dueDate": "2026-04-30",
+      "reviewDate": "2026-04-23",
+      "status": "Open",
+      "trigger": "Unestimated work > 10% sprint capacity",
+      "contingency": "Defer lower-value backlog items",
+      "residualRisk": 12
+    },
+    {
+      "riskId": "RISK-004",
+      "description": "Forecast delivery cost exceeds approved baseline",
+      "category": "Financial",
+      "probability": 3,
+      "impact": 4,
+      "score": 12,
+      "severity": "High",
+      "responseStrategy": "Mitigate",
+      "mitigation": "Monthly forecast, burn review and contingency gate",
+      "owner": "Aarav Mehta",
+      "dueDate": "2026-05-29",
+      "reviewDate": "2026-05-22",
+      "status": "Open",
+      "trigger": "EAC > \u20b925 lakh",
+      "contingency": "Reforecast and seek steering decision",
+      "residualRisk": 8
+    },
+    {
+      "riskId": "RISK-005",
+      "description": "Cloud or model provider outage interrupts service",
+      "category": "External dependency",
+      "probability": 3,
+      "impact": 4,
+      "score": 12,
+      "severity": "High",
+      "responseStrategy": "Mitigate",
+      "mitigation": "Timeouts, retries, provider status runbook",
+      "owner": "Kabir Shah",
+      "dueDate": "2026-06-05",
+      "reviewDate": "2026-05-29",
+      "status": "Open",
+      "trigger": "Availability below 99.5%",
+      "contingency": "Degrade safely and route to agents",
+      "residualRisk": 8
+    },
+    {
+      "riskId": "RISK-006",
+      "description": "Retrieval quality is insufficient for key intents",
+      "category": "AI quality",
+      "probability": 4,
+      "impact": 4,
+      "score": 16,
+      "severity": "Critical",
+      "responseStrategy": "Mitigate",
+      "mitigation": "Build representative test set and tune chunking",
+      "owner": "Neel Kapoor",
+      "dueDate": "2026-05-22",
+      "reviewDate": "2026-05-15",
+      "status": "In Progress",
+      "trigger": "Grounded answer rate < 85%",
+      "contingency": "Limit automated intents",
+      "residualRisk": 9
+    },
+    {
+      "riskId": "RISK-007",
+      "description": "CRM integration contract arrives late",
+      "category": "Integration",
+      "probability": 4,
+      "impact": 4,
+      "score": 16,
+      "severity": "Critical",
+      "responseStrategy": "Mitigate",
+      "mitigation": "Confirm sandbox contract and use adapter boundary",
+      "owner": "Mira Nair",
+      "dueDate": "2026-05-01",
+      "reviewDate": "2026-04-24",
+      "status": "Open",
+      "trigger": "No contract by Sprint 8",
+      "contingency": "Use controlled CSV handoff for UAT",
+      "residualRisk": 10
+    },
+    {
+      "riskId": "RISK-008",
+      "description": "Temporary QA capacity is insufficient near UAT",
+      "category": "Resources",
+      "probability": 4,
+      "impact": 3,
+      "score": 12,
+      "severity": "High",
+      "responseStrategy": "Mitigate",
+      "mitigation": "Shift test design earlier and request approved support",
+      "owner": "Rohan Das",
+      "dueDate": "2026-06-12",
+      "reviewDate": "2026-06-05",
+      "status": "Open",
+      "trigger": "Planned utilization > 100%",
+      "contingency": "Reprioritize regression suite",
+      "residualRisk": 9
+    },
+    {
+      "riskId": "RISK-009",
+      "description": "Support agents do not adopt the workflow",
+      "category": "Adoption",
+      "probability": 3,
+      "impact": 3,
+      "score": 9,
+      "severity": "Medium",
+      "responseStrategy": "Enhance",
+      "mitigation": "Co-design, training and feedback sessions",
+      "owner": "Ananya Rao",
+      "dueDate": "2026-06-26",
+      "reviewDate": "2026-06-19",
+      "status": "Open",
+      "trigger": "Training completion < 90%",
+      "contingency": "Extend coached pilot",
+      "residualRisk": 6
+    },
+    {
+      "riskId": "RISK-010",
+      "description": "UAT identifies critical defects near release",
+      "category": "Quality",
+      "probability": 3,
+      "impact": 5,
+      "score": 15,
+      "severity": "High",
+      "responseStrategy": "Mitigate",
+      "mitigation": "Entry criteria, risk-based testing and exit gates",
+      "owner": "Sana Khan",
+      "dueDate": "2026-06-19",
+      "reviewDate": "2026-06-12",
+      "status": "Open",
+      "trigger": "Critical open defect at UAT exit",
+      "contingency": "Delay release; retain rollback option",
+      "residualRisk": 12
+    },
+    {
+      "riskId": "RISK-011",
+      "description": "Document owners do not approve source corpus",
+      "category": "Data readiness",
+      "probability": 3,
+      "impact": 4,
+      "score": 12,
+      "severity": "High",
+      "responseStrategy": "Mitigate",
+      "mitigation": "Named approvers and staged content sign-off",
+      "owner": "Ananya Rao",
+      "dueDate": "2026-05-08",
+      "reviewDate": "2026-05-01",
+      "status": "In Progress",
+      "trigger": "Approval under 80% by Sprint 7",
+      "contingency": "Launch with approved subset",
+      "residualRisk": 7
+    },
+    {
+      "riskId": "RISK-012",
+      "description": "Latency exceeds support-channel tolerance",
+      "category": "Performance",
+      "probability": 2,
+      "impact": 4,
+      "score": 8,
+      "severity": "Medium",
+      "responseStrategy": "Mitigate",
+      "mitigation": "Measure p95 latency and tune retrieval budget",
+      "owner": "Kabir Shah",
+      "dueDate": "2026-06-12",
+      "reviewDate": "2026-06-05",
+      "status": "Open",
+      "trigger": "p95 > 3 seconds",
+      "contingency": "Reduce context and queue nonurgent work",
+      "residualRisk": 6
+    }
+  ],
+  "issues": [
+    {
+      "issueId": "ISSUE-001",
+      "description": "CRM sandbox credentials arrived three business days late",
+      "category": "Integration",
+      "severity": "High",
+      "priority": "High",
+      "owner": "Mira Nair",
+      "dueDate": "2026-04-24",
+      "status": "In Progress",
+      "resolutionPlan": "Use mock adapter until access restored"
+    },
+    {
+      "issueId": "ISSUE-002",
+      "description": "Two approved document sets have inconsistent metadata",
+      "category": "Data readiness",
+      "severity": "Medium",
+      "priority": "High",
+      "owner": "Neel Kapoor",
+      "dueDate": "2026-04-24",
+      "status": "Open",
+      "resolutionPlan": "Normalize metadata and confirm source owner"
+    },
+    {
+      "issueId": "ISSUE-003",
+      "description": "Mobile chat layout clips long citation labels",
+      "category": "UX",
+      "severity": "Medium",
+      "priority": "Medium",
+      "owner": "Diya Iyer",
+      "dueDate": "2026-04-28",
+      "status": "Open",
+      "resolutionPlan": "Add wrapping and regression coverage"
+    },
+    {
+      "issueId": "ISSUE-004",
+      "description": "Sprint 5 retrieval tuning story carried over",
+      "category": "Delivery",
+      "severity": "Medium",
+      "priority": "High",
+      "owner": "Neel Kapoor",
+      "dueDate": "2026-04-24",
+      "status": "In Progress",
+      "resolutionPlan": "Split evaluation and implementation work"
+    },
+    {
+      "issueId": "ISSUE-005",
+      "description": "Audit event schema missing actor context",
+      "category": "Security",
+      "severity": "High",
+      "priority": "High",
+      "owner": "Kabir Shah",
+      "dueDate": "2026-04-30",
+      "status": "Open",
+      "resolutionPlan": "Add actor and role fields before integration test"
+    },
+    {
+      "issueId": "ISSUE-006",
+      "description": "QA test environment refresh is intermittent",
+      "category": "Environment",
+      "severity": "Medium",
+      "priority": "Medium",
+      "owner": "Rohan Das",
+      "dueDate": "2026-04-27",
+      "status": "Open",
+      "resolutionPlan": "Pin a stable test data snapshot"
+    },
+    {
+      "issueId": "ISSUE-007",
+      "description": "Ticket priority mapping differs from support policy",
+      "category": "Product",
+      "severity": "Low",
+      "priority": "Medium",
+      "owner": "Ananya Rao",
+      "dueDate": "2026-04-29",
+      "status": "In Progress",
+      "resolutionPlan": "Review mapping with support lead"
+    },
+    {
+      "issueId": "ISSUE-008",
+      "description": "Steering requested cost forecast sensitivity view",
+      "category": "Governance",
+      "severity": "Low",
+      "priority": "Low",
+      "owner": "Aarav Mehta",
+      "dueDate": "2026-04-30",
+      "status": "Open",
+      "resolutionPlan": "Add base and risk-adjusted EAC in next pack"
+    },
+    {
+      "issueId": "ISSUE-009",
+      "description": "Citation drawer keyboard focus order fails review",
+      "category": "Accessibility",
+      "severity": "Medium",
+      "priority": "Medium",
+      "owner": "Ishaan Patel",
+      "dueDate": "2026-05-04",
+      "status": "Open",
+      "resolutionPlan": "Repair focus order and include keyboard test"
+    }
+  ],
+  "milestones": [
+    {
+      "milestoneId": "MILESTONE-001",
+      "name": "Charter approved",
+      "baselineDate": "2026-01-05",
+      "forecastDate": "2026-01-14",
+      "status": "Complete",
+      "owner": "Aarav Mehta"
+    },
+    {
+      "milestoneId": "MILESTONE-002",
+      "name": "Requirements baseline approved",
+      "baselineDate": "2026-01-28",
+      "forecastDate": "2026-02-03",
+      "status": "Complete",
+      "owner": "Aarav Mehta"
+    },
+    {
+      "milestoneId": "MILESTONE-003",
+      "name": "Architecture and security review",
+      "baselineDate": "2026-02-09",
+      "forecastDate": "2026-02-15",
+      "status": "Complete",
+      "owner": "Aarav Mehta"
+    },
+    {
+      "milestoneId": "MILESTONE-004",
+      "name": "Knowledge retrieval MVP",
+      "baselineDate": "2026-03-17",
+      "forecastDate": "2026-03-23",
+      "status": "At Risk",
+      "owner": "Aarav Mehta"
+    },
+    {
+      "milestoneId": "MILESTONE-005",
+      "name": "Customer chat and ticket MVP",
+      "baselineDate": "2026-04-12",
+      "forecastDate": "2026-04-19",
+      "status": "Not Started",
+      "owner": "Aarav Mehta"
+    },
+    {
+      "milestoneId": "MILESTONE-006",
+      "name": "Integrated system test exit",
+      "baselineDate": "2026-05-14",
+      "forecastDate": "2026-05-21",
+      "status": "Not Started",
+      "owner": "Aarav Mehta"
+    },
+    {
+      "milestoneId": "MILESTONE-007",
+      "name": "UAT sign-off",
+      "baselineDate": "2026-06-07",
+      "forecastDate": "2026-06-13",
+      "status": "Not Started",
+      "owner": "Aarav Mehta"
+    },
+    {
+      "milestoneId": "MILESTONE-008",
+      "name": "Production go-live",
+      "baselineDate": "2026-06-27",
+      "forecastDate": "2026-07-03",
+      "status": "Not Started",
+      "owner": "Aarav Mehta"
+    }
+  ],
+  "costs": [
+    {
+      "period": "2026-01",
+      "category": "Development",
+      "plannedCostINR": 100000,
+      "actualCostINR": 95238,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-01",
+      "category": "AI and cloud",
+      "plannedCostINR": 40000,
+      "actualCostINR": 38095,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-01",
+      "category": "Design",
+      "plannedCostINR": 20000,
+      "actualCostINR": 19048,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-01",
+      "category": "Testing",
+      "plannedCostINR": 20000,
+      "actualCostINR": 19048,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-01",
+      "category": "Infrastructure",
+      "plannedCostINR": 30000,
+      "actualCostINR": 28571,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-01",
+      "category": "Contingency",
+      "plannedCostINR": 0,
+      "actualCostINR": 0,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-02",
+      "category": "Development",
+      "plannedCostINR": 133333,
+      "actualCostINR": 130952,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-02",
+      "category": "AI and cloud",
+      "plannedCostINR": 53333,
+      "actualCostINR": 52381,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-02",
+      "category": "Design",
+      "plannedCostINR": 26667,
+      "actualCostINR": 26190,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-02",
+      "category": "Testing",
+      "plannedCostINR": 26667,
+      "actualCostINR": 26190,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-02",
+      "category": "Infrastructure",
+      "plannedCostINR": 40000,
+      "actualCostINR": 39286,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-02",
+      "category": "Contingency",
+      "plannedCostINR": 0,
+      "actualCostINR": 0,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-03",
+      "category": "Development",
+      "plannedCostINR": 161905,
+      "actualCostINR": 157143,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-03",
+      "category": "AI and cloud",
+      "plannedCostINR": 64762,
+      "actualCostINR": 62857,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-03",
+      "category": "Design",
+      "plannedCostINR": 32381,
+      "actualCostINR": 31429,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-03",
+      "category": "Testing",
+      "plannedCostINR": 32381,
+      "actualCostINR": 31429,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-03",
+      "category": "Infrastructure",
+      "plannedCostINR": 48571,
+      "actualCostINR": 47143,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-03",
+      "category": "Contingency",
+      "plannedCostINR": 0,
+      "actualCostINR": 0,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-04",
+      "category": "Development",
+      "plannedCostINR": 185714,
+      "actualCostINR": 192857,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-04",
+      "category": "AI and cloud",
+      "plannedCostINR": 74286,
+      "actualCostINR": 77143,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-04",
+      "category": "Design",
+      "plannedCostINR": 37143,
+      "actualCostINR": 38571,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-04",
+      "category": "Testing",
+      "plannedCostINR": 37143,
+      "actualCostINR": 38571,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-04",
+      "category": "Infrastructure",
+      "plannedCostINR": 55714,
+      "actualCostINR": 57857,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-04",
+      "category": "Contingency",
+      "plannedCostINR": 0,
+      "actualCostINR": 0,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-05",
+      "category": "Development",
+      "plannedCostINR": 142857,
+      "actualCostINR": 0,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-05",
+      "category": "AI and cloud",
+      "plannedCostINR": 57143,
+      "actualCostINR": 0,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-05",
+      "category": "Design",
+      "plannedCostINR": 28571,
+      "actualCostINR": 0,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-05",
+      "category": "Testing",
+      "plannedCostINR": 28571,
+      "actualCostINR": 0,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-05",
+      "category": "Infrastructure",
+      "plannedCostINR": 42857,
+      "actualCostINR": 0,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-05",
+      "category": "Contingency",
+      "plannedCostINR": 0,
+      "actualCostINR": 0,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-06",
+      "category": "Development",
+      "plannedCostINR": 142857,
+      "actualCostINR": 0,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-06",
+      "category": "AI and cloud",
+      "plannedCostINR": 57143,
+      "actualCostINR": 0,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-06",
+      "category": "Design",
+      "plannedCostINR": 28571,
+      "actualCostINR": 0,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-06",
+      "category": "Testing",
+      "plannedCostINR": 28571,
+      "actualCostINR": 0,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-06",
+      "category": "Infrastructure",
+      "plannedCostINR": 42857,
+      "actualCostINR": 0,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-06",
+      "category": "Contingency",
+      "plannedCostINR": 0,
+      "actualCostINR": 0,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-07",
+      "category": "Development",
+      "plannedCostINR": 133333,
+      "actualCostINR": 0,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-07",
+      "category": "AI and cloud",
+      "plannedCostINR": 53333,
+      "actualCostINR": 0,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-07",
+      "category": "Design",
+      "plannedCostINR": 26667,
+      "actualCostINR": 0,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-07",
+      "category": "Testing",
+      "plannedCostINR": 26667,
+      "actualCostINR": 0,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-07",
+      "category": "Infrastructure",
+      "plannedCostINR": 40000,
+      "actualCostINR": 0,
+      "commitmentINR": 0
+    },
+    {
+      "period": "2026-07",
+      "category": "Contingency",
+      "plannedCostINR": 0,
+      "actualCostINR": 0,
+      "commitmentINR": 0
+    }
+  ],
+  "quality": [
+    {
+      "observationDate": "2026-01-31",
+      "sampleSize": 200,
+      "answeredCount": 190,
+      "accurateAnswerCount": 172,
+      "groundedCount": 168,
+      "unsupportedCount": 12,
+      "humanEscalations": 50,
+      "automatedResolutions": 112,
+      "avgLatencySeconds": 2.8,
+      "retrievalRelevantCount": 164,
+      "uatPassed": 18,
+      "uatExecuted": 24,
+      "defectCount": 9,
+      "reopenedTickets": 8,
+      "resolvedTickets": 120
+    },
+    {
+      "observationDate": "2026-02-28",
+      "sampleSize": 200,
+      "answeredCount": 192,
+      "accurateAnswerCount": 177,
+      "groundedCount": 171,
+      "unsupportedCount": 11,
+      "humanEscalations": 47,
+      "automatedResolutions": 116,
+      "avgLatencySeconds": 2.6799999999999997,
+      "retrievalRelevantCount": 168,
+      "uatPassed": 21,
+      "uatExecuted": 27,
+      "defectCount": 8,
+      "reopenedTickets": 7,
+      "resolvedTickets": 130
+    },
+    {
+      "observationDate": "2026-03-31",
+      "sampleSize": 200,
+      "answeredCount": 194,
+      "accurateAnswerCount": 182,
+      "groundedCount": 174,
+      "unsupportedCount": 10,
+      "humanEscalations": 44,
+      "automatedResolutions": 120,
+      "avgLatencySeconds": 2.5599999999999996,
+      "retrievalRelevantCount": 172,
+      "uatPassed": 24,
+      "uatExecuted": 30,
+      "defectCount": 7,
+      "reopenedTickets": 6,
+      "resolvedTickets": 140
+    },
+    {
+      "observationDate": "2026-04-17",
+      "sampleSize": 200,
+      "answeredCount": 196,
+      "accurateAnswerCount": 187,
+      "groundedCount": 177,
+      "unsupportedCount": 9,
+      "humanEscalations": 41,
+      "automatedResolutions": 124,
+      "avgLatencySeconds": 2.44,
+      "retrievalRelevantCount": 176,
+      "uatPassed": 27,
+      "uatExecuted": 33,
+      "defectCount": 6,
+      "reopenedTickets": 5,
+      "resolvedTickets": 150
+    }
+  ],
+  "burndown": [
+    {
+      "sprintId": "SPRINT-01",
+      "day": 0,
+      "date": "2026-01-05",
+      "plannedPoints": 8,
+      "remainingPoints": 8
+    },
+    {
+      "sprintId": "SPRINT-01",
+      "day": 1,
+      "date": "2026-01-06",
+      "plannedPoints": 8,
+      "remainingPoints": 7
+    },
+    {
+      "sprintId": "SPRINT-01",
+      "day": 2,
+      "date": "2026-01-07",
+      "plannedPoints": 8,
+      "remainingPoints": 7
+    },
+    {
+      "sprintId": "SPRINT-01",
+      "day": 3,
+      "date": "2026-01-08",
+      "plannedPoints": 8,
+      "remainingPoints": 6
+    },
+    {
+      "sprintId": "SPRINT-01",
+      "day": 4,
+      "date": "2026-01-09",
+      "plannedPoints": 8,
+      "remainingPoints": 6
+    },
+    {
+      "sprintId": "SPRINT-01",
+      "day": 5,
+      "date": "2026-01-10",
+      "plannedPoints": 8,
+      "remainingPoints": 5
+    },
+    {
+      "sprintId": "SPRINT-01",
+      "day": 6,
+      "date": "2026-01-11",
+      "plannedPoints": 8,
+      "remainingPoints": 4
+    },
+    {
+      "sprintId": "SPRINT-01",
+      "day": 7,
+      "date": "2026-01-12",
+      "plannedPoints": 8,
+      "remainingPoints": 4
+    },
+    {
+      "sprintId": "SPRINT-01",
+      "day": 8,
+      "date": "2026-01-13",
+      "plannedPoints": 8,
+      "remainingPoints": 3
+    },
+    {
+      "sprintId": "SPRINT-01",
+      "day": 9,
+      "date": "2026-01-14",
+      "plannedPoints": 8,
+      "remainingPoints": 2
+    },
+    {
+      "sprintId": "SPRINT-01",
+      "day": 10,
+      "date": "2026-01-15",
+      "plannedPoints": 8,
+      "remainingPoints": 2
+    },
+    {
+      "sprintId": "SPRINT-01",
+      "day": 11,
+      "date": "2026-01-16",
+      "plannedPoints": 8,
+      "remainingPoints": 1
+    },
+    {
+      "sprintId": "SPRINT-01",
+      "day": 12,
+      "date": "2026-01-17",
+      "plannedPoints": 8,
+      "remainingPoints": 1
+    },
+    {
+      "sprintId": "SPRINT-01",
+      "day": 13,
+      "date": "2026-01-18",
+      "plannedPoints": 8,
+      "remainingPoints": 0
+    },
+    {
+      "sprintId": "SPRINT-02",
+      "day": 0,
+      "date": "2026-01-19",
+      "plannedPoints": 13,
+      "remainingPoints": 13
+    },
+    {
+      "sprintId": "SPRINT-02",
+      "day": 1,
+      "date": "2026-01-20",
+      "plannedPoints": 13,
+      "remainingPoints": 12
+    },
+    {
+      "sprintId": "SPRINT-02",
+      "day": 2,
+      "date": "2026-01-21",
+      "plannedPoints": 13,
+      "remainingPoints": 11
+    },
+    {
+      "sprintId": "SPRINT-02",
+      "day": 3,
+      "date": "2026-01-22",
+      "plannedPoints": 13,
+      "remainingPoints": 10
+    },
+    {
+      "sprintId": "SPRINT-02",
+      "day": 4,
+      "date": "2026-01-23",
+      "plannedPoints": 13,
+      "remainingPoints": 9
+    },
+    {
+      "sprintId": "SPRINT-02",
+      "day": 5,
+      "date": "2026-01-24",
+      "plannedPoints": 13,
+      "remainingPoints": 8
+    },
+    {
+      "sprintId": "SPRINT-02",
+      "day": 6,
+      "date": "2026-01-25",
+      "plannedPoints": 13,
+      "remainingPoints": 7
+    },
+    {
+      "sprintId": "SPRINT-02",
+      "day": 7,
+      "date": "2026-01-26",
+      "plannedPoints": 13,
+      "remainingPoints": 6
+    },
+    {
+      "sprintId": "SPRINT-02",
+      "day": 8,
+      "date": "2026-01-27",
+      "plannedPoints": 13,
+      "remainingPoints": 5
+    },
+    {
+      "sprintId": "SPRINT-02",
+      "day": 9,
+      "date": "2026-01-28",
+      "plannedPoints": 13,
+      "remainingPoints": 4
+    },
+    {
+      "sprintId": "SPRINT-02",
+      "day": 10,
+      "date": "2026-01-29",
+      "plannedPoints": 13,
+      "remainingPoints": 3
+    },
+    {
+      "sprintId": "SPRINT-02",
+      "day": 11,
+      "date": "2026-01-30",
+      "plannedPoints": 13,
+      "remainingPoints": 2
+    },
+    {
+      "sprintId": "SPRINT-02",
+      "day": 12,
+      "date": "2026-01-31",
+      "plannedPoints": 13,
+      "remainingPoints": 1
+    },
+    {
+      "sprintId": "SPRINT-02",
+      "day": 13,
+      "date": "2026-02-01",
+      "plannedPoints": 13,
+      "remainingPoints": 0
+    },
+    {
+      "sprintId": "SPRINT-03",
+      "day": 0,
+      "date": "2026-02-02",
+      "plannedPoints": 11,
+      "remainingPoints": 11
+    },
+    {
+      "sprintId": "SPRINT-03",
+      "day": 1,
+      "date": "2026-02-03",
+      "plannedPoints": 11,
+      "remainingPoints": 10
+    },
+    {
+      "sprintId": "SPRINT-03",
+      "day": 2,
+      "date": "2026-02-04",
+      "plannedPoints": 11,
+      "remainingPoints": 9
+    },
+    {
+      "sprintId": "SPRINT-03",
+      "day": 3,
+      "date": "2026-02-05",
+      "plannedPoints": 11,
+      "remainingPoints": 8
+    },
+    {
+      "sprintId": "SPRINT-03",
+      "day": 4,
+      "date": "2026-02-06",
+      "plannedPoints": 11,
+      "remainingPoints": 8
+    },
+    {
+      "sprintId": "SPRINT-03",
+      "day": 5,
+      "date": "2026-02-07",
+      "plannedPoints": 11,
+      "remainingPoints": 7
+    },
+    {
+      "sprintId": "SPRINT-03",
+      "day": 6,
+      "date": "2026-02-08",
+      "plannedPoints": 11,
+      "remainingPoints": 6
+    },
+    {
+      "sprintId": "SPRINT-03",
+      "day": 7,
+      "date": "2026-02-09",
+      "plannedPoints": 11,
+      "remainingPoints": 5
+    },
+    {
+      "sprintId": "SPRINT-03",
+      "day": 8,
+      "date": "2026-02-10",
+      "plannedPoints": 11,
+      "remainingPoints": 4
+    },
+    {
+      "sprintId": "SPRINT-03",
+      "day": 9,
+      "date": "2026-02-11",
+      "plannedPoints": 11,
+      "remainingPoints": 3
+    },
+    {
+      "sprintId": "SPRINT-03",
+      "day": 10,
+      "date": "2026-02-12",
+      "plannedPoints": 11,
+      "remainingPoints": 3
+    },
+    {
+      "sprintId": "SPRINT-03",
+      "day": 11,
+      "date": "2026-02-13",
+      "plannedPoints": 11,
+      "remainingPoints": 2
+    },
+    {
+      "sprintId": "SPRINT-03",
+      "day": 12,
+      "date": "2026-02-14",
+      "plannedPoints": 11,
+      "remainingPoints": 1
+    },
+    {
+      "sprintId": "SPRINT-03",
+      "day": 13,
+      "date": "2026-02-15",
+      "plannedPoints": 11,
+      "remainingPoints": 0
+    },
+    {
+      "sprintId": "SPRINT-04",
+      "day": 0,
+      "date": "2026-02-16",
+      "plannedPoints": 13,
+      "remainingPoints": 13
+    },
+    {
+      "sprintId": "SPRINT-04",
+      "day": 1,
+      "date": "2026-02-17",
+      "plannedPoints": 13,
+      "remainingPoints": 12
+    },
+    {
+      "sprintId": "SPRINT-04",
+      "day": 2,
+      "date": "2026-02-18",
+      "plannedPoints": 13,
+      "remainingPoints": 11
+    },
+    {
+      "sprintId": "SPRINT-04",
+      "day": 3,
+      "date": "2026-02-19",
+      "plannedPoints": 13,
+      "remainingPoints": 10
+    },
+    {
+      "sprintId": "SPRINT-04",
+      "day": 4,
+      "date": "2026-02-20",
+      "plannedPoints": 13,
+      "remainingPoints": 9
+    },
+    {
+      "sprintId": "SPRINT-04",
+      "day": 5,
+      "date": "2026-02-21",
+      "plannedPoints": 13,
+      "remainingPoints": 8
+    },
+    {
+      "sprintId": "SPRINT-04",
+      "day": 6,
+      "date": "2026-02-22",
+      "plannedPoints": 13,
+      "remainingPoints": 7
+    },
+    {
+      "sprintId": "SPRINT-04",
+      "day": 7,
+      "date": "2026-02-23",
+      "plannedPoints": 13,
+      "remainingPoints": 6
+    },
+    {
+      "sprintId": "SPRINT-04",
+      "day": 8,
+      "date": "2026-02-24",
+      "plannedPoints": 13,
+      "remainingPoints": 5
+    },
+    {
+      "sprintId": "SPRINT-04",
+      "day": 9,
+      "date": "2026-02-25",
+      "plannedPoints": 13,
+      "remainingPoints": 4
+    },
+    {
+      "sprintId": "SPRINT-04",
+      "day": 10,
+      "date": "2026-02-26",
+      "plannedPoints": 13,
+      "remainingPoints": 3
+    },
+    {
+      "sprintId": "SPRINT-04",
+      "day": 11,
+      "date": "2026-02-27",
+      "plannedPoints": 13,
+      "remainingPoints": 2
+    },
+    {
+      "sprintId": "SPRINT-04",
+      "day": 12,
+      "date": "2026-02-28",
+      "plannedPoints": 13,
+      "remainingPoints": 1
+    },
+    {
+      "sprintId": "SPRINT-04",
+      "day": 13,
+      "date": "2026-03-01",
+      "plannedPoints": 13,
+      "remainingPoints": 0
+    },
+    {
+      "sprintId": "SPRINT-05",
+      "day": 0,
+      "date": "2026-03-02",
+      "plannedPoints": 8,
+      "remainingPoints": 8
+    },
+    {
+      "sprintId": "SPRINT-05",
+      "day": 1,
+      "date": "2026-03-03",
+      "plannedPoints": 8,
+      "remainingPoints": 7
+    },
+    {
+      "sprintId": "SPRINT-05",
+      "day": 2,
+      "date": "2026-03-04",
+      "plannedPoints": 8,
+      "remainingPoints": 7
+    },
+    {
+      "sprintId": "SPRINT-05",
+      "day": 3,
+      "date": "2026-03-05",
+      "plannedPoints": 8,
+      "remainingPoints": 6
+    },
+    {
+      "sprintId": "SPRINT-05",
+      "day": 4,
+      "date": "2026-03-06",
+      "plannedPoints": 8,
+      "remainingPoints": 6
+    },
+    {
+      "sprintId": "SPRINT-05",
+      "day": 5,
+      "date": "2026-03-07",
+      "plannedPoints": 8,
+      "remainingPoints": 5
+    },
+    {
+      "sprintId": "SPRINT-05",
+      "day": 6,
+      "date": "2026-03-08",
+      "plannedPoints": 8,
+      "remainingPoints": 4
+    },
+    {
+      "sprintId": "SPRINT-05",
+      "day": 7,
+      "date": "2026-03-09",
+      "plannedPoints": 8,
+      "remainingPoints": 6
+    },
+    {
+      "sprintId": "SPRINT-05",
+      "day": 8,
+      "date": "2026-03-10",
+      "plannedPoints": 8,
+      "remainingPoints": 5
+    },
+    {
+      "sprintId": "SPRINT-05",
+      "day": 9,
+      "date": "2026-03-11",
+      "plannedPoints": 8,
+      "remainingPoints": 4
+    },
+    {
+      "sprintId": "SPRINT-05",
+      "day": 10,
+      "date": "2026-03-12",
+      "plannedPoints": 8,
+      "remainingPoints": 4
+    },
+    {
+      "sprintId": "SPRINT-05",
+      "day": 11,
+      "date": "2026-03-13",
+      "plannedPoints": 8,
+      "remainingPoints": 1
+    },
+    {
+      "sprintId": "SPRINT-05",
+      "day": 12,
+      "date": "2026-03-14",
+      "plannedPoints": 8,
+      "remainingPoints": 1
+    },
+    {
+      "sprintId": "SPRINT-05",
+      "day": 13,
+      "date": "2026-03-15",
+      "plannedPoints": 8,
+      "remainingPoints": 0
+    },
+    {
+      "sprintId": "SPRINT-06",
+      "day": 0,
+      "date": "2026-03-16",
+      "plannedPoints": 13,
+      "remainingPoints": 13
+    },
+    {
+      "sprintId": "SPRINT-06",
+      "day": 1,
+      "date": "2026-03-17",
+      "plannedPoints": 13,
+      "remainingPoints": 12
+    },
+    {
+      "sprintId": "SPRINT-06",
+      "day": 2,
+      "date": "2026-03-18",
+      "plannedPoints": 13,
+      "remainingPoints": 11
+    },
+    {
+      "sprintId": "SPRINT-06",
+      "day": 3,
+      "date": "2026-03-19",
+      "plannedPoints": 13,
+      "remainingPoints": 10
+    },
+    {
+      "sprintId": "SPRINT-06",
+      "day": 4,
+      "date": "2026-03-20",
+      "plannedPoints": 13,
+      "remainingPoints": 9
+    },
+    {
+      "sprintId": "SPRINT-06",
+      "day": 5,
+      "date": "2026-03-21",
+      "plannedPoints": 13,
+      "remainingPoints": 8
+    },
+    {
+      "sprintId": "SPRINT-06",
+      "day": 6,
+      "date": "2026-03-22",
+      "plannedPoints": 13,
+      "remainingPoints": 7
+    },
+    {
+      "sprintId": "SPRINT-06",
+      "day": 7,
+      "date": "2026-03-23",
+      "plannedPoints": 13,
+      "remainingPoints": 6
+    },
+    {
+      "sprintId": "SPRINT-06",
+      "day": 8,
+      "date": "2026-03-24",
+      "plannedPoints": 13,
+      "remainingPoints": 5
+    },
+    {
+      "sprintId": "SPRINT-06",
+      "day": 9,
+      "date": "2026-03-25",
+      "plannedPoints": 13,
+      "remainingPoints": 4
+    },
+    {
+      "sprintId": "SPRINT-06",
+      "day": 10,
+      "date": "2026-03-26",
+      "plannedPoints": 13,
+      "remainingPoints": 3
+    },
+    {
+      "sprintId": "SPRINT-06",
+      "day": 11,
+      "date": "2026-03-27",
+      "plannedPoints": 13,
+      "remainingPoints": 2
+    },
+    {
+      "sprintId": "SPRINT-06",
+      "day": 12,
+      "date": "2026-03-28",
+      "plannedPoints": 13,
+      "remainingPoints": 1
+    },
+    {
+      "sprintId": "SPRINT-06",
+      "day": 13,
+      "date": "2026-03-29",
+      "plannedPoints": 13,
+      "remainingPoints": 0
+    }
+  ],
+  "resourceAllocations": [
+    {
+      "sprintId": "SPRINT-01",
+      "resourceId": "RES-001",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 72,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-01",
+      "resourceId": "RES-002",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 67,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-01",
+      "resourceId": "RES-003",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 76,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-01",
+      "resourceId": "RES-004",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 70,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-01",
+      "resourceId": "RES-005",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 72,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-01",
+      "resourceId": "RES-006",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 65,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-01",
+      "resourceId": "RES-007",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 74,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-01",
+      "resourceId": "RES-008",
+      "availableHours": 80,
+      "allocatedHours": 56,
+      "actualHours": 53,
+      "plannedUtilizationPct": 70.0
+    },
+    {
+      "sprintId": "SPRINT-01",
+      "resourceId": "RES-009",
+      "availableHours": 80,
+      "allocatedHours": 84,
+      "actualHours": 80,
+      "plannedUtilizationPct": 105.0
+    },
+    {
+      "sprintId": "SPRINT-01",
+      "resourceId": "RES-010",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 80,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-02",
+      "resourceId": "RES-001",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 74,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-02",
+      "resourceId": "RES-002",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 68,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-02",
+      "resourceId": "RES-003",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 78,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-02",
+      "resourceId": "RES-004",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 72,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-02",
+      "resourceId": "RES-005",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 65,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-02",
+      "resourceId": "RES-006",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 67,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-02",
+      "resourceId": "RES-007",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 76,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-02",
+      "resourceId": "RES-008",
+      "availableHours": 80,
+      "allocatedHours": 56,
+      "actualHours": 55,
+      "plannedUtilizationPct": 70.0
+    },
+    {
+      "sprintId": "SPRINT-02",
+      "resourceId": "RES-009",
+      "availableHours": 80,
+      "allocatedHours": 84,
+      "actualHours": 80,
+      "plannedUtilizationPct": 105.0
+    },
+    {
+      "sprintId": "SPRINT-02",
+      "resourceId": "RES-010",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 72,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-03",
+      "resourceId": "RES-001",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 76,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-03",
+      "resourceId": "RES-002",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 70,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-03",
+      "resourceId": "RES-003",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 80,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-03",
+      "resourceId": "RES-004",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 65,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-03",
+      "resourceId": "RES-005",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 67,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-03",
+      "resourceId": "RES-006",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 68,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-03",
+      "resourceId": "RES-007",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 78,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-03",
+      "resourceId": "RES-008",
+      "availableHours": 80,
+      "allocatedHours": 56,
+      "actualHours": 56,
+      "plannedUtilizationPct": 70.0
+    },
+    {
+      "sprintId": "SPRINT-03",
+      "resourceId": "RES-009",
+      "availableHours": 80,
+      "allocatedHours": 84,
+      "actualHours": 76,
+      "plannedUtilizationPct": 105.0
+    },
+    {
+      "sprintId": "SPRINT-03",
+      "resourceId": "RES-010",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 74,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-04",
+      "resourceId": "RES-001",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 78,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-04",
+      "resourceId": "RES-002",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 72,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-04",
+      "resourceId": "RES-003",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 72,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-04",
+      "resourceId": "RES-004",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 67,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-04",
+      "resourceId": "RES-005",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 68,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-04",
+      "resourceId": "RES-006",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 70,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-04",
+      "resourceId": "RES-007",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 80,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-04",
+      "resourceId": "RES-008",
+      "availableHours": 80,
+      "allocatedHours": 56,
+      "actualHours": 50,
+      "plannedUtilizationPct": 70.0
+    },
+    {
+      "sprintId": "SPRINT-04",
+      "resourceId": "RES-009",
+      "availableHours": 80,
+      "allocatedHours": 84,
+      "actualHours": 78,
+      "plannedUtilizationPct": 105.0
+    },
+    {
+      "sprintId": "SPRINT-04",
+      "resourceId": "RES-010",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 76,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-05",
+      "resourceId": "RES-001",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 80,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-05",
+      "resourceId": "RES-002",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 65,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-05",
+      "resourceId": "RES-003",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 74,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-05",
+      "resourceId": "RES-004",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 68,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-05",
+      "resourceId": "RES-005",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 70,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-05",
+      "resourceId": "RES-006",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 72,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-05",
+      "resourceId": "RES-007",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 72,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-05",
+      "resourceId": "RES-008",
+      "availableHours": 80,
+      "allocatedHours": 56,
+      "actualHours": 52,
+      "plannedUtilizationPct": 70.0
+    },
+    {
+      "sprintId": "SPRINT-05",
+      "resourceId": "RES-009",
+      "availableHours": 80,
+      "allocatedHours": 84,
+      "actualHours": 80,
+      "plannedUtilizationPct": 105.0
+    },
+    {
+      "sprintId": "SPRINT-05",
+      "resourceId": "RES-010",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 78,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-06",
+      "resourceId": "RES-001",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 72,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-06",
+      "resourceId": "RES-002",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 67,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-06",
+      "resourceId": "RES-003",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 76,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-06",
+      "resourceId": "RES-004",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 70,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-06",
+      "resourceId": "RES-005",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 72,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-06",
+      "resourceId": "RES-006",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 65,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-06",
+      "resourceId": "RES-007",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 74,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-06",
+      "resourceId": "RES-008",
+      "availableHours": 80,
+      "allocatedHours": 56,
+      "actualHours": 53,
+      "plannedUtilizationPct": 70.0
+    },
+    {
+      "sprintId": "SPRINT-06",
+      "resourceId": "RES-009",
+      "availableHours": 80,
+      "allocatedHours": 84,
+      "actualHours": 80,
+      "plannedUtilizationPct": 105.0
+    },
+    {
+      "sprintId": "SPRINT-06",
+      "resourceId": "RES-010",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 80,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-07",
+      "resourceId": "RES-001",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 0,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-07",
+      "resourceId": "RES-002",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 0,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-07",
+      "resourceId": "RES-003",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 0,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-07",
+      "resourceId": "RES-004",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 0,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-07",
+      "resourceId": "RES-005",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 0,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-07",
+      "resourceId": "RES-006",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 0,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-07",
+      "resourceId": "RES-007",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 0,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-07",
+      "resourceId": "RES-008",
+      "availableHours": 80,
+      "allocatedHours": 56,
+      "actualHours": 0,
+      "plannedUtilizationPct": 70.0
+    },
+    {
+      "sprintId": "SPRINT-07",
+      "resourceId": "RES-009",
+      "availableHours": 80,
+      "allocatedHours": 84,
+      "actualHours": 0,
+      "plannedUtilizationPct": 105.0
+    },
+    {
+      "sprintId": "SPRINT-07",
+      "resourceId": "RES-010",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 0,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-08",
+      "resourceId": "RES-001",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 0,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-08",
+      "resourceId": "RES-002",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 0,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-08",
+      "resourceId": "RES-003",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 0,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-08",
+      "resourceId": "RES-004",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 0,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-08",
+      "resourceId": "RES-005",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 0,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-08",
+      "resourceId": "RES-006",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 0,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-08",
+      "resourceId": "RES-007",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 0,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-08",
+      "resourceId": "RES-008",
+      "availableHours": 80,
+      "allocatedHours": 56,
+      "actualHours": 0,
+      "plannedUtilizationPct": 70.0
+    },
+    {
+      "sprintId": "SPRINT-08",
+      "resourceId": "RES-009",
+      "availableHours": 80,
+      "allocatedHours": 84,
+      "actualHours": 0,
+      "plannedUtilizationPct": 105.0
+    },
+    {
+      "sprintId": "SPRINT-08",
+      "resourceId": "RES-010",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 0,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-09",
+      "resourceId": "RES-001",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 0,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-09",
+      "resourceId": "RES-002",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 0,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-09",
+      "resourceId": "RES-003",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 0,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-09",
+      "resourceId": "RES-004",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 0,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-09",
+      "resourceId": "RES-005",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 0,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-09",
+      "resourceId": "RES-006",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 0,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-09",
+      "resourceId": "RES-007",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 0,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-09",
+      "resourceId": "RES-008",
+      "availableHours": 80,
+      "allocatedHours": 56,
+      "actualHours": 0,
+      "plannedUtilizationPct": 70.0
+    },
+    {
+      "sprintId": "SPRINT-09",
+      "resourceId": "RES-009",
+      "availableHours": 80,
+      "allocatedHours": 84,
+      "actualHours": 0,
+      "plannedUtilizationPct": 105.0
+    },
+    {
+      "sprintId": "SPRINT-09",
+      "resourceId": "RES-010",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 0,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-10",
+      "resourceId": "RES-001",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 0,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-10",
+      "resourceId": "RES-002",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 0,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-10",
+      "resourceId": "RES-003",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 0,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-10",
+      "resourceId": "RES-004",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 0,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-10",
+      "resourceId": "RES-005",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 0,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-10",
+      "resourceId": "RES-006",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 0,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-10",
+      "resourceId": "RES-007",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 0,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-10",
+      "resourceId": "RES-008",
+      "availableHours": 80,
+      "allocatedHours": 56,
+      "actualHours": 0,
+      "plannedUtilizationPct": 70.0
+    },
+    {
+      "sprintId": "SPRINT-10",
+      "resourceId": "RES-009",
+      "availableHours": 80,
+      "allocatedHours": 84,
+      "actualHours": 0,
+      "plannedUtilizationPct": 105.0
+    },
+    {
+      "sprintId": "SPRINT-10",
+      "resourceId": "RES-010",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 0,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-11",
+      "resourceId": "RES-001",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 0,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-11",
+      "resourceId": "RES-002",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 0,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-11",
+      "resourceId": "RES-003",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 0,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-11",
+      "resourceId": "RES-004",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 0,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-11",
+      "resourceId": "RES-005",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 0,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-11",
+      "resourceId": "RES-006",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 0,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-11",
+      "resourceId": "RES-007",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 0,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-11",
+      "resourceId": "RES-008",
+      "availableHours": 80,
+      "allocatedHours": 56,
+      "actualHours": 0,
+      "plannedUtilizationPct": 70.0
+    },
+    {
+      "sprintId": "SPRINT-11",
+      "resourceId": "RES-009",
+      "availableHours": 80,
+      "allocatedHours": 84,
+      "actualHours": 0,
+      "plannedUtilizationPct": 105.0
+    },
+    {
+      "sprintId": "SPRINT-11",
+      "resourceId": "RES-010",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 0,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-12",
+      "resourceId": "RES-001",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 0,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-12",
+      "resourceId": "RES-002",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 0,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-12",
+      "resourceId": "RES-003",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 0,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-12",
+      "resourceId": "RES-004",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 0,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-12",
+      "resourceId": "RES-005",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 0,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-12",
+      "resourceId": "RES-006",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 0,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-12",
+      "resourceId": "RES-007",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 0,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-12",
+      "resourceId": "RES-008",
+      "availableHours": 80,
+      "allocatedHours": 56,
+      "actualHours": 0,
+      "plannedUtilizationPct": 70.0
+    },
+    {
+      "sprintId": "SPRINT-12",
+      "resourceId": "RES-009",
+      "availableHours": 80,
+      "allocatedHours": 84,
+      "actualHours": 0,
+      "plannedUtilizationPct": 105.0
+    },
+    {
+      "sprintId": "SPRINT-12",
+      "resourceId": "RES-010",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 0,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-13",
+      "resourceId": "RES-001",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 0,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-13",
+      "resourceId": "RES-002",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 0,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-13",
+      "resourceId": "RES-003",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 0,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-13",
+      "resourceId": "RES-004",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 0,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-13",
+      "resourceId": "RES-005",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 0,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-13",
+      "resourceId": "RES-006",
+      "availableHours": 80,
+      "allocatedHours": 72,
+      "actualHours": 0,
+      "plannedUtilizationPct": 90.0
+    },
+    {
+      "sprintId": "SPRINT-13",
+      "resourceId": "RES-007",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 0,
+      "plannedUtilizationPct": 100.0
+    },
+    {
+      "sprintId": "SPRINT-13",
+      "resourceId": "RES-008",
+      "availableHours": 80,
+      "allocatedHours": 56,
+      "actualHours": 0,
+      "plannedUtilizationPct": 70.0
+    },
+    {
+      "sprintId": "SPRINT-13",
+      "resourceId": "RES-009",
+      "availableHours": 80,
+      "allocatedHours": 84,
+      "actualHours": 0,
+      "plannedUtilizationPct": 105.0
+    },
+    {
+      "sprintId": "SPRINT-13",
+      "resourceId": "RES-010",
+      "availableHours": 80,
+      "allocatedHours": 80,
+      "actualHours": 0,
+      "plannedUtilizationPct": 100.0
+    }
+  ],
+  "statusSnapshots": [
+    {
+      "snapshotDate": "2026-01-05",
+      "projectCompletionPct": 0,
+      "cumulativeActualCostINR": 0,
+      "openRisks": 12,
+      "openIssues": 9,
+      "projectStatus": "In Progress"
+    },
+    {
+      "snapshotDate": "2026-01-12",
+      "projectCompletionPct": 3,
+      "cumulativeActualCostINR": 83039,
+      "openRisks": 12,
+      "openIssues": 9,
+      "projectStatus": "In Progress"
+    },
+    {
+      "snapshotDate": "2026-01-19",
+      "projectCompletionPct": 7,
+      "cumulativeActualCostINR": 166078,
+      "openRisks": 12,
+      "openIssues": 9,
+      "projectStatus": "In Progress"
+    },
+    {
+      "snapshotDate": "2026-01-26",
+      "projectCompletionPct": 10,
+      "cumulativeActualCostINR": 249117,
+      "openRisks": 12,
+      "openIssues": 9,
+      "projectStatus": "In Progress"
+    },
+    {
+      "snapshotDate": "2026-02-02",
+      "projectCompletionPct": 13,
+      "cumulativeActualCostINR": 332157,
+      "openRisks": 12,
+      "openIssues": 9,
+      "projectStatus": "In Progress"
+    },
+    {
+      "snapshotDate": "2026-02-09",
+      "projectCompletionPct": 16,
+      "cumulativeActualCostINR": 415196,
+      "openRisks": 12,
+      "openIssues": 9,
+      "projectStatus": "In Progress"
+    },
+    {
+      "snapshotDate": "2026-02-16",
+      "projectCompletionPct": 20,
+      "cumulativeActualCostINR": 498235,
+      "openRisks": 12,
+      "openIssues": 9,
+      "projectStatus": "At Risk"
+    },
+    {
+      "snapshotDate": "2026-02-23",
+      "projectCompletionPct": 23,
+      "cumulativeActualCostINR": 581274,
+      "openRisks": 12,
+      "openIssues": 9,
+      "projectStatus": "At Risk"
+    },
+    {
+      "snapshotDate": "2026-03-02",
+      "projectCompletionPct": 26,
+      "cumulativeActualCostINR": 664313,
+      "openRisks": 12,
+      "openIssues": 9,
+      "projectStatus": "At Risk"
+    },
+    {
+      "snapshotDate": "2026-03-09",
+      "projectCompletionPct": 30,
+      "cumulativeActualCostINR": 747352,
+      "openRisks": 12,
+      "openIssues": 9,
+      "projectStatus": "At Risk"
+    },
+    {
+      "snapshotDate": "2026-03-16",
+      "projectCompletionPct": 33,
+      "cumulativeActualCostINR": 830391,
+      "openRisks": 12,
+      "openIssues": 9,
+      "projectStatus": "At Risk"
+    },
+    {
+      "snapshotDate": "2026-03-23",
+      "projectCompletionPct": 36,
+      "cumulativeActualCostINR": 913431,
+      "openRisks": 12,
+      "openIssues": 9,
+      "projectStatus": "At Risk"
+    },
+    {
+      "snapshotDate": "2026-03-30",
+      "projectCompletionPct": 40,
+      "cumulativeActualCostINR": 996470,
+      "openRisks": 12,
+      "openIssues": 9,
+      "projectStatus": "At Risk"
+    },
+    {
+      "snapshotDate": "2026-04-06",
+      "projectCompletionPct": 43,
+      "cumulativeActualCostINR": 1079509,
+      "openRisks": 12,
+      "openIssues": 9,
+      "projectStatus": "At Risk"
+    },
+    {
+      "snapshotDate": "2026-04-13",
+      "projectCompletionPct": 46,
+      "cumulativeActualCostINR": 1162548,
+      "openRisks": 12,
+      "openIssues": 9,
+      "projectStatus": "At Risk"
+    },
+    {
+      "snapshotDate": "2026-04-17",
+      "projectCompletionPct": 48,
+      "cumulativeActualCostINR": 1209999,
+      "openRisks": 12,
+      "openIssues": 9,
+      "projectStatus": "At Risk"
+    }
+  ],
+  "budgetCategories": [
+    {
+      "category": "Development",
+      "budgetBaselineINR": 1000000,
+      "contingencyFlag": false
+    },
+    {
+      "category": "AI and cloud",
+      "budgetBaselineINR": 400000,
+      "contingencyFlag": false
+    },
+    {
+      "category": "Design",
+      "budgetBaselineINR": 200000,
+      "contingencyFlag": false
+    },
+    {
+      "category": "Testing",
+      "budgetBaselineINR": 200000,
+      "contingencyFlag": false
+    },
+    {
+      "category": "Infrastructure",
+      "budgetBaselineINR": 300000,
+      "contingencyFlag": false
+    },
+    {
+      "category": "Contingency",
+      "budgetBaselineINR": 400000,
+      "contingencyFlag": true
+    }
+  ],
+  "changeRequests": [
+    {
+      "changeRequestId": "CR-001",
+      "date": "2026-04-08",
+      "title": "Add accessibility review to MVP exit criteria",
+      "requestor": "Support Operations Lead",
+      "impact": "QA effort and release acceptance gate",
+      "status": "Approved",
+      "approver": "Executive Sponsor"
+    }
+  ],
+  "decisions": [
+    {
+      "decisionId": "DEC-001",
+      "date": "2026-01-14",
+      "decision": "Use approved document sources only for initial release",
+      "status": "Approved"
+    },
+    {
+      "decisionId": "DEC-002",
+      "date": "2026-02-02",
+      "decision": "Keep human escalation available for every supported intent",
+      "status": "Approved"
+    },
+    {
+      "decisionId": "DEC-003",
+      "date": "2026-03-16",
+      "decision": "Use citation traceability as a release acceptance gate",
+      "status": "Approved"
+    }
+  ]
+}

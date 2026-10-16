@@ -1,0 +1,36 @@
+﻿Task ID,Task Name,Description,Workstream,Assignee,Priority,Status,Start Date,Due Date,Forecast End,Dependency IDs,Sprint,Completion,Duration Days
+TASK-001,Charter and governance baseline,1.01,Initiation & governance,Aarav Mehta,High,Complete,2026-01-05,2026-01-09,2026-01-09,,SPRINT-01,100,5
+TASK-002,Stakeholder discovery and kickoff,1.02,Initiation & governance,Ananya Rao,High,Complete,2026-01-05,2026-01-12,2026-01-12,TASK-001,SPRINT-01,100,8
+TASK-003,Customer support workflow discovery,2.01,Discovery & requirements,Ananya Rao,High,Complete,2026-01-10,2026-01-19,2026-01-19,TASK-002,SPRINT-01,100,10
+TASK-004,Product requirements and acceptance baseline,2.02,Discovery & requirements,Ananya Rao,High,Complete,2026-01-14,2026-01-26,2026-01-26,TASK-003,SPRINT-01,100,13
+TASK-005,Conversation journey and wireframes,3.01,UX/UI design,Tara Joshi,High,Complete,2026-01-16,2026-01-30,2026-01-30,TASK-003,SPRINT-01,100,15
+TASK-006,Admin console interaction design,3.02,UX/UI design,Tara Joshi,Medium,In Progress,2026-01-24,2026-02-07,2026-02-07,TASK-005,SPRINT-02,75,15
+TASK-007,Service architecture and API contracts,4.01,Backend & APIs,Kabir Shah,High,Complete,2026-01-14,2026-01-28,2026-01-28,TASK-003,SPRINT-01,100,15
+TASK-008,Role model and authorization design,5.01,Authentication & access,Kabir Shah,High,In Progress,2026-01-24,2026-02-04,2026-02-04,TASK-007,SPRINT-02,85,12
+TASK-009,Identity integration and audit events,5.02,Authentication & access,Mira Nair,High,In Progress,2026-02-01,2026-02-21,2026-02-21,TASK-008,SPRINT-02,60,21
+TASK-010,Document inventory and access policy,6.01,Knowledge ingestion,Neel Kapoor,High,Complete,2026-01-20,2026-02-01,2026-02-01,TASK-003,SPRINT-02,100,13
+TASK-011,Ingestion and parsing pipeline,6.02,Knowledge ingestion,Neel Kapoor,High,In Progress,2026-01-31,2026-02-25,2026-02-25,TASK-010,SPRINT-02,65,26
+TASK-012,"Metadata, versioning and index refresh",6.03,Knowledge ingestion,Mira Nair,Medium,In Progress,2026-02-15,2026-03-07,2026-03-10,TASK-011,SPRINT-03,35,21
+TASK-013,Retrieval baseline and evaluation set,7.01,Retrieval & RAG,Neel Kapoor,High,Complete,2026-01-30,2026-02-13,2026-02-13,TASK-010,SPRINT-02,100,15
+TASK-014,Grounded answer orchestration and citations,7.02,Retrieval & RAG,Neel Kapoor,Critical,In Progress,2026-02-12,2026-03-14,2026-03-17,TASK-013,SPRINT-03,45,31
+TASK-015,Escalation policy and safety guardrails,8.01,AI guardrails,Ananya Rao,Critical,In Progress,2026-02-12,2026-03-05,2026-03-08,TASK-013,SPRINT-03,40,22
+TASK-016,Chat interface and source references,9.01,Customer chat frontend,Ishaan Patel,High,In Progress,2026-02-07,2026-03-03,2026-03-03,TASK-005,SPRINT-03,68,25
+TASK-017,Accessibility and responsive states,9.02,Customer chat frontend,Diya Iyer,Medium,Not Started,2026-02-21,2026-03-12,2026-03-12,TASK-016,SPRINT-04,0,20
+TASK-018,Ticket creation and assignment API,10.01,Ticket management,Mira Nair,High,In Progress,2026-02-18,2026-03-14,2026-03-17,TASK-009,SPRINT-04,42,25
+TASK-019,Agent queue and status transitions,10.02,Ticket management,Ishaan Patel,High,Not Started,2026-03-01,2026-03-22,2026-03-22,TASK-018,SPRINT-04,0,22
+TASK-020,Quality metrics and configuration screens,11.01,Admin dashboard,Diya Iyer,Medium,Not Started,2026-03-04,2026-03-30,2026-03-30,TASK-006,SPRINT-05,0,27
+TASK-021,Event model and operational telemetry,12.01,Analytics & monitoring,Kabir Shah,Medium,In Progress,2026-02-25,2026-03-17,2026-03-20,TASK-014,SPRINT-04,20,21
+TASK-022,CRM sandbox and service integration,13.01,Integration,Mira Nair,High,Not Started,2026-03-10,2026-04-02,2026-04-02,TASK-018,SPRINT-05,0,24
+TASK-023,Test strategy and automation framework,14.01,QA & security,Rohan Das,High,Complete,2026-01-30,2026-02-12,2026-02-12,TASK-004,SPRINT-02,100,14
+TASK-024,"Security, privacy and access testing",14.02,QA & security,Sana Khan,Critical,Not Started,2026-03-07,2026-04-06,2026-04-06,TASK-009,SPRINT-05,0,31
+TASK-025,"Functional, regression and load testing",14.03,QA & security,Rohan Das,High,Not Started,2026-03-15,2026-04-15,2026-04-15,TASK-019,SPRINT-05,0,32
+TASK-026,Offline quality evaluation and tuning,15.01,AI evaluation,Neel Kapoor,High,Not Started,2026-03-07,2026-04-05,2026-04-05,TASK-014,SPRINT-05,0,30
+TASK-027,"UAT scripts, sessions and sign-off",16.01,UAT,Ananya Rao,High,Not Started,2026-04-05,2026-04-22,2026-04-22,TASK-024,SPRINT-07,0,18
+TASK-028,Release checklist and agent training,17.01,Deployment & training,Aarav Mehta,High,Not Started,2026-04-19,2026-05-03,2026-05-03,TASK-027,SPRINT-08,0,15
+TASK-029,Production rollout and go/no-go,17.02,Deployment & training,Aarav Mehta,Critical,Not Started,2026-05-04,2026-05-10,2026-05-10,TASK-028,SPRINT-09,0,7
+TASK-030,"Hypercare, KPI review and closure",18.01,Monitoring & closure,Aarav Mehta,Medium,Not Started,2026-05-11,2026-07-03,2026-07-03,TASK-029,SPRINT-10,0,54
+TASK-031,Change control and monthly steering,19.01,Governance,Aarav Mehta,Medium,In Progress,2026-01-05,2026-07-03,2026-07-03,TASK-001,SPRINT-01,55,180
+TASK-032,Approved source-owner sign-off,6.04,Knowledge ingestion,Ananya Rao,High,At Risk,2026-01-24,2026-02-16,2026-02-23,TASK-010,SPRINT-02,70,24
+TASK-033,CRM API contract confirmation,13.02,Integration,Kabir Shah,High,At Risk,2026-02-05,2026-02-28,2026-03-07,TASK-007,SPRINT-03,65,24
+TASK-034,Test data privacy review,14.04,QA & security,Sana Khan,Critical,In Progress,2026-02-17,2026-03-06,2026-03-06,TASK-023,SPRINT-04,50,18
+TASK-035,Operational dashboard instrumentation,12.02,Analytics & monitoring,Diya Iyer,Medium,Not Started,2026-03-25,2026-04-16,2026-04-16,TASK-021,SPRINT-06,0,23
